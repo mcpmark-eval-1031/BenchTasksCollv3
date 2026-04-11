@@ -1,0 +1,63 @@
+# source_resolution_single_2.csv
+# Task: personal-website-construct (instance _5)
+# Upstream template: academicpages/academicpages.github.io  (ref: master, tree SHA 4f52d97e)
+# Destination namespace: mazextest2026/LJT-Homepage  (ref: main, HEAD 5adccf65)
+# Review date: 2026-04-12
+# Subject: Junteng Liu (jliugi@connect.ust.hk)
+#
+file_path,template_sha,dest_sha,template_size_bytes,dest_size_bytes,source_type,review_verdict,notes
+_config.yml,114fe4017e39f8a179b7349e5a23ab8fa01db83b,ba519eadf5a68d8c4194d2d71bfb23827e10651e,10408,7075,TEMPLATE-MODIFIED,KEEP,"Personalized: title/name=Junteng Liu; email=jliugi@connect.ust.hk; github=Vicent0205; bio=PhD candidate HKUST NLP Group; googlescholar URL; twitter=junteng88716710"
+_pages/about.md,492fccc93ea2a93c9f957475eada5c18a32c2cdd,f56595259a2cd7d3c2f15752637359330da6c4f7,7946,2304,TEMPLATE-MODIFIED,KEEP,"Personalized about page: PhD at HKUST NLP (Prof. Junxian He); B.Eng. SJTU 2024; 3 research interests; 3 internships (MINIMAX/Tencent/Shanghai AI Lab); 6 publications; contact info"
+README.md,74f399a2fc77a4bff799e133de8cbd98bbebdc32,69a97abeff735c939382923f57f0b39c64d3ee8f,7611,57,TEMPLATE-MODIFIED,KEEP,Replaced generic academicpages README with one-liner: Personal academic homepage of Junteng Liu
+Gemfile,ba132f0d204eceb3742f01f5c63e32598948f8c6,ba132f0d204eceb3742f01f5c63e32598948f8c6,239,239,TEMPLATE-IDENTICAL,KEEP,Verbatim copy from upstream template; SHA matches exactly
+_data/,(directory retained),,(directory retained),,TEMPLATE-RETAINED,KEEP,Jekyll navigation/data directory kept from template; assumed content-identical
+_includes/,(directory retained),,(directory retained),,TEMPLATE-RETAINED,KEEP,Jekyll include partials kept from template; verified by commit messages (incremental adds)
+_layouts/,(directory retained),,(directory retained),,TEMPLATE-RETAINED,KEEP,Jekyll layouts kept from template; verified by commit messages
+_sass/,(directory retained),,(directory retained),,TEMPLATE-RETAINED,KEEP,Sass styles kept from template; verified by commit message 'Add _sass files'
+assets/,(directory retained),,(directory retained),,TEMPLATE-RETAINED,KEEP,JS/CSS assets kept from template; assumed content-identical
+_publications/2025-01-01-synlogic.md,(not in template),8466864f968b254df966bf0308d1e53762752b4f,(none),494,NEW-IN-DESTINATION,KEEP,"SynLogic paper 2025; Junteng Liu first author; source: memory.json entity SynLogic"
+_publications/2025-01-02-vlm-chart.md,(not in template),0596d0371bd7ec4b1e851736b617ab2db5caa11a,(none),410,NEW-IN-DESTINATION,KEEP,"VLM Chart Understanding paper 2025; Junteng Liu first author; source: memory.json entity On the Perception Bottleneck"
+_publications/2024-01-01-truthfulness-hyperplane.md,(not in template),e18330c3d347f33d17492a7c82a929b50678424f,(none),449,NEW-IN-DESTINATION,KEEP,"Universal Truthfulness Hyperplane EMNLP 2024; Junteng Liu first author; source: memory.json"
+_publications/2024-01-02-hallucination-mitigation.md,(not in template),61edd86b6aeb8921dc10f2f1ec108a016616e812,(none),578,NEW-IN-DESTINATION,KEEP,"In-Context Sharpness ICML 2024; Junteng Liu co-author; source: memory.json"
+_publications/2023-01-01-ceval.md,(not in template),370c6a82362559429a9279ebf4c167dcb12d6c85,(none),525,NEW-IN-DESTINATION,KEEP,"C-Eval NeurIPS 2023; Junteng Liu co-author; source: memory.json"
+_publications/2023-01-02-parameter-efficient.md,(not in template),31d4478db427e9fee8e621e1cb6527e8a995ec0b,(none),476,NEW-IN-DESTINATION,KEEP,"Parameter-Efficient Modules NeurIPS 2023; Junteng Liu co-author; source: memory.json"
+.devcontainer/,b9d9821d5a7a2916f80a597ea0d3a93ae9225e0b,(removed),,0,TEMPLATE-REMOVED,DROP,Dev-container config not needed for GitHub Pages personal site
+.github/,c685ac20942e1e938ac1b655af188ed25aa48475,(removed),,0,TEMPLATE-REMOVED,DROP,GitHub Actions CI workflows stripped; not needed for static personal site
+.gitignore,b41392bed12ce71552ee72e5038167bc14a12629,(removed),458,0,TEMPLATE-REMOVED,REVIEW,Git ignore omitted from fork; low-risk gap but should be restored for cleanliness
+CONTRIBUTING.md,23c50b425a857d43295640b885bc2b9fd5d24d06,(removed),694,0,TEMPLATE-REMOVED,DROP,Contributing guide only relevant to the academicpages open-source template repo; not a personal site concern
+Dockerfile,ccbe2ce21b8d02c2b680d8a263842b86fe8cfbb9,(removed),840,0,TEMPLATE-REMOVED,DROP,Docker build file not needed for GitHub Pages deployment
+LICENSE,23a6cd1dfd2ad97408b9acdc0f66fd1a28324094,(removed),1078,0,TEMPLATE-REMOVED,REVIEW,MIT License from template removed; should be restored or replaced with personal-site license
+_config_docker.yml,a50cbe7c866fa5c4bd31cda1863ba7ea4270cf62,(removed),7,0,TEMPLATE-REMOVED,DROP,Docker-specific config; not needed
+_drafts/,(removed),,0,,TEMPLATE-REMOVED,DROP,Draft post directory; no draft content
+_portfolio/,(removed),,0,,TEMPLATE-REMOVED,DROP,Portfolio section removed per task scope (no portfolio content from memory)
+_posts/,(removed),,0,,TEMPLATE-REMOVED,DROP,Blog posts section removed; no blog content from memory
+_talks/,(removed),,0,,TEMPLATE-REMOVED,DROP,Talks section removed; no talks content from memory
+_teaching/,(removed),,0,,TEMPLATE-REMOVED,DROP,Teaching section removed; no teaching content from memory
+docker-compose.yaml,629b9225791c73bc6e6c1eaf199f47782e573be3,(removed),257,0,TEMPLATE-REMOVED,DROP,Docker Compose file; not needed
+files/,(removed),,0,,TEMPLATE-REMOVED,DROP,Attached files directory; no files to attach
+images/,(removed),,0,,TEMPLATE-REMOVED,DROP,Images directory; no custom images provided in memory
+markdown_generator/,(removed),,0,,TEMPLATE-REMOVED,DROP,Jupyter/Python markdown generator utilities; not needed for static site
+package.json,3844421c3de85564b80f6e6df9df6d6030d07f86,(removed),1290,0,TEMPLATE-REMOVED,DROP,Node.js dev dependency manifest; not needed for GitHub Pages
+scripts/,(removed),,0,,TEMPLATE-REMOVED,DROP,Build scripts directory; not needed
+talkmap.ipynb,08eb114799afc8de2fdc15f8040f17347ac2db93,(removed),4503,0,TEMPLATE-REMOVED,DROP,Talk-map generation notebook; no talks content
+talkmap.py,e905c0672fbdd2d8d443b4c0d5275c8519660c99,(removed),1854,0,TEMPLATE-REMOVED,DROP,Talk-map script; no talks content
+talkmap_out.ipynb,99521afcb1e7447624c59245bf0d4b2d60869292,(removed),11458,0,TEMPLATE-REMOVED,DROP,Talk-map output; not needed
+talkmap/,(removed),,0,,TEMPLATE-REMOVED,DROP,Talk-map data directory; not needed
+_pages/404.md,a2c7b222b82f7fb3b3a7ffa8e06ec955d6384a4c,(removed),129,0,TEMPLATE-REMOVED,DROP,404 error page; low priority for initial personal site
+_pages/archive-layout-with-content.md,8559b435e722b2799133ba499993cd6c008f9f28,(removed),4049,0,TEMPLATE-REMOVED,DROP,Archive demo page; not needed
+_pages/category-archive.html,3ed3378f7ac2dad6763584cabd4dc54f353dfe3c,(removed),450,0,TEMPLATE-REMOVED,REVIEW,Category archive page removed; may cause broken category links
+_pages/collection-archive.html,344c51ea0dc6a5aced7e327f6aebca465bcf971f,(removed),767,0,TEMPLATE-REMOVED,DROP,Collection archive page; not needed
+_pages/cv-json.md,0cb5319447c80e12f5031537235d3695ab030893,(removed),371,0,TEMPLATE-REMOVED,DROP,CV JSON page; no CV file provided and task said no additional pages
+_pages/cv.md,5e1f08a858a62df696b67c26344cd6ab629f6f4f,(removed),1291,0,TEMPLATE-REMOVED,DROP,CV page removed per task instruction (no additional pages beyond about)
+_pages/markdown.md,8b3f5fb4380caf9af386ffa33e257a4ef1822d92,(removed),13067,0,TEMPLATE-REMOVED,DROP,Markdown demo page; not needed
+_pages/non-menu-page.md,ab7a7543ef1319dc2f090acf1b9a242065f67348,(removed),230,0,TEMPLATE-REMOVED,DROP,Example non-menu page; not needed
+_pages/page-archive.html,c1c5d7caebc658bcb6879ac9861a8025300915ea,(removed),196,0,TEMPLATE-REMOVED,DROP,Page archive; not needed
+_pages/portfolio.html,d5c93d2e408c903b8dc2ea73946056219282bebc,(removed),197,0,TEMPLATE-REMOVED,DROP,Portfolio page; removed because portfolio section removed
+_pages/publications.html,e2f94618ab9aa329a2722e4e23f4f51a0ab5208f,(removed),963,0,TEMPLATE-REMOVED,REVIEW,"Publications HTML page removed; replaced by individual _publications/*.md files — structurally consistent but note: task says publications should also appear in about section (verified: about.md includes Publications section)"
+_pages/sitemap.md,45615fc332332293020a29499f71dcd64e9e4fee,(removed),1019,0,TEMPLATE-REMOVED,DROP,Sitemap page; optional
+_pages/tag-archive.html,4006381d968a2d1ac05cf27dc376027bd581ee27,(removed),419,0,TEMPLATE-REMOVED,DROP,Tag archive; not needed
+_pages/talkmap.html,7d25c3b14d48d28e2aac0df7db81f96e2c3e8763,(removed),411,0,TEMPLATE-REMOVED,DROP,Talkmap page; no talks
+_pages/talks.html,48ef03da18d376585cc3ef5f262e0e290eaecbb8,(removed),357,0,TEMPLATE-REMOVED,DROP,Talks page; no talks content
+_pages/teaching.html,ea3910f714b94c2440834c1eb27310d5f7f64fb4,(removed),201,0,TEMPLATE-REMOVED,DROP,Teaching page; no teaching content
+_pages/terms.md,6ab84b3680031c27ed96250344ee6480535d8fdd,(removed),1915,0,TEMPLATE-REMOVED,DROP,Terms of service page; not needed
+_pages/year-archive.html,b3b288338630e6327d66459ce570e04690c766f2,(removed),529,0,TEMPLATE-REMOVED,DROP,Year archive; not needed
