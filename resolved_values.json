@@ -1,0 +1,61 @@
+{
+  "_meta": {
+    "source_priority": "canonical_finalpool > developer_branches > intermediate_finalpool",
+    "authoritative_source": "bugmaker00/BenchTasksCollv3-review@finalpool (PR#1, 2026-04-09)",
+    "secondary_source": "mcpmark-eval-1031/BenchTasksCollv3@{dev_branch}",
+    "tertiary_source": "mcpmark-eval-1031/BenchTasksCollv3@finalpool (2026-03-23)",
+    "rule_file": "source_priority.md"
+  },
+  "review_snapshot_date": "2026-04-09",
+  "total_candidate_count": 116,
+  "total_kept_count": 77,
+  "total_e1_drop_count": 20,
+  "total_e2_drop_count": 10,
+  "total_e3_drop_count": 9,
+  "developer_task_counts": {
+    "fan": 8,
+    "gyy": 9,
+    "haoze": 7,
+    "jl": 7,
+    "junteng": 10,
+    "junxian": 8,
+    "lueyang": 10,
+    "lv": 9,
+    "ruige": 8,
+    "wenshuo": 7,
+    "xiaochen": 10,
+    "yuxuan": 7,
+    "yuzhen": 9,
+    "zhaochen": 7
+  },
+  "developer_kept_counts": {
+    "fan": 4,
+    "gyy": 6,
+    "haoze": 4,
+    "jl": 5,
+    "junteng": 8,
+    "junxian": 3,
+    "lueyang": 8,
+    "lv": 7,
+    "ruige": 6,
+    "wenshuo": 4,
+    "xiaochen": 7,
+    "yuxuan": 5,
+    "yuzhen": 6,
+    "zhaochen": 4
+  },
+  "file_size_resolved": {
+    "jl/monthly-sales-analysis/docs/task.md": {
+      "bytes": 172,
+      "cjk_present": true,
+      "cjk_section": "## 中文描述\n这个任务需要实现monthly-sales-analysis功能\n",
+      "overage_bytes": 69,
+      "standard_bytes": 103
+    }
+  },
+  "verdict_resolved": {
+    "jl/monthly-sales-analysis": "E1_DROP",
+    "xiaochen/code-reviewer": "E3_DROP",
+    "jl/weekly-expense-tracker": "E2_DROP"
+  }
+}
