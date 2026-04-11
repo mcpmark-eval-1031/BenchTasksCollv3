@@ -1,0 +1,746 @@
+{
+  "_meta": {
+    "subproblem": "finalpool-sync-todo-to-readme_6",
+    "review_branch": "review-sync-todo-readme-6",
+    "description": "Final normalized task selection combining two review dimensions: (1) boundary editorial review (boundary_review.csv, DIM1) and (2) canonical pair-1 snapshot-membership review (review_table_pair_1.csv, DIM2). Canonical verdict (DIM2) is authoritative per source_priority.md SR-2.",
+    "dim1_source_file": "boundary_review.csv",
+    "dim1_source_sha": "2ea98532facbdaa348cd7ef3683c630b5229c93b",
+    "dim1_source_branch": "boundary-review",
+    "dim2_source_file": "review_table_pair_1.csv",
+    "dim2_source_sha": "843ad0ed4a709f16e07f7fd6981dc69887b139aa",
+    "dim2_source_branch": "boundary-review",
+    "cross_source_matrix_file": "cross_source_matrix.csv",
+    "intermediate_readme_sha": "679cacc001162bab1cb767b25c7b4b3b1fb4c365",
+    "intermediate_repo": "mcpmark-eval-1031/BenchTasksCollv3@finalpool",
+    "intermediate_date": "2026-03-23",
+    "canonical_repo": "bugmaker00/BenchTasksCollv3-review",
+    "canonical_commit": "531b8ecc7c8d351a11f828fb88b6b34be91c5857",
+    "review_date": "2026-04-09",
+    "source_priority_rule": "canonical_finalpool > developer_branches > intermediate_finalpool",
+    "conflict_resolution_rule": "SR-2: dim2 canonical_verdict wins all cross-dimension conflicts"
+  },
+  "total_candidate_count": 116,
+  "total_resolved_keep": 77,
+  "total_resolved_drop": 39,
+  "cross_dimension_conflicts": 48,
+  "cross_dimension_agreements": 68,
+  "verdict_breakdown": {
+    "E0_KEEP (DIM2)": 77,
+    "E1_DROP (DIM2)": 20,
+    "E2_DROP (DIM2)": 10,
+    "E3_DROP (DIM2)": 9
+  },
+  "intermediate_finalpool_count": 67,
+  "verdict_flips_intermediate_keep_to_drop": 29,
+  "developer_kept_counts": {
+    "fan": 4,
+    "gyy": 6,
+    "haoze": 4,
+    "jl": 5,
+    "junteng": 8,
+    "junxian": 3,
+    "lueyang": 8,
+    "lv": 7,
+    "ruige": 6,
+    "wenshuo": 4,
+    "xiaochen": 7,
+    "yuxuan": 5,
+    "yuzhen": 6,
+    "zhaochen": 4
+  },
+  "tasks": [
+    {
+      "task_id": "fan/coupon-manager",
+      "developer": "fan",
+      "task_name": "coupon-manager",
+      "source_branch": "fan-dev",
+      "in_intermediate_finalpool": true,
+      "dim2_e_code": "E0",
+      "dim2_canonical_verdict": "KEEP"
+    },
+    {
+      "task_id": "fan/discount-calculator",
+      "developer": "fan",
+      "task_name": "discount-calculator",
+      "source_branch": "fan-dev",
+      "in_intermediate_finalpool": false,
+      "dim2_e_code": "E0",
+      "dim2_canonical_verdict": "KEEP"
+    },
+    {
+      "task_id": "fan/loyalty-program",
+      "developer": "fan",
+      "task_name": "loyalty-program",
+      "source_branch": "fan-dev",
+      "in_intermediate_finalpool": true,
+      "dim2_e_code": "E0",
+      "dim2_canonical_verdict": "KEEP"
+    },
+    {
+      "task_id": "fan/price-tracker",
+      "developer": "fan",
+      "task_name": "price-tracker",
+      "source_branch": "fan-dev",
+      "in_intermediate_finalpool": true,
+      "dim2_e_code": "E0",
+      "dim2_canonical_verdict": "KEEP"
+    },
+    {
+      "task_id": "gyy/blog-engine",
+      "developer": "gyy",
+      "task_name": "blog-engine",
+      "source_branch": "gyy",
+      "in_intermediate_finalpool": true,
+      "dim2_e_code": "E0",
+      "dim2_canonical_verdict": "KEEP"
+    },
+    {
+      "task_id": "gyy/cms-builder",
+      "developer": "gyy",
+      "task_name": "cms-builder",
+      "source_branch": "gyy",
+      "in_intermediate_finalpool": true,
+      "dim2_e_code": "E0",
+      "dim2_canonical_verdict": "KEEP"
+    },
+    {
+      "task_id": "gyy/content-scheduler",
+      "developer": "gyy",
+      "task_name": "content-scheduler",
+      "source_branch": "gyy",
+      "in_intermediate_finalpool": false,
+      "dim2_e_code": "E0",
+      "dim2_canonical_verdict": "KEEP"
+    },
+    {
+      "task_id": "gyy/robots-handler",
+      "developer": "gyy",
+      "task_name": "robots-handler",
+      "source_branch": "gyy",
+      "in_intermediate_finalpool": true,
+      "dim2_e_code": "E0",
+      "dim2_canonical_verdict": "KEEP"
+    },
+    {
+      "task_id": "gyy/social-publisher",
+      "developer": "gyy",
+      "task_name": "social-publisher",
+      "source_branch": "gyy",
+      "in_intermediate_finalpool": false,
+      "dim2_e_code": "E0",
+      "dim2_canonical_verdict": "KEEP"
+    },
+    {
+      "task_id": "gyy/tag-manager",
+      "developer": "gyy",
+      "task_name": "tag-manager",
+      "source_branch": "gyy",
+      "in_intermediate_finalpool": true,
+      "dim2_e_code": "E0",
+      "dim2_canonical_verdict": "KEEP"
+    },
+    {
+      "task_id": "haoze/media-organizer",
+      "developer": "haoze",
+      "task_name": "media-organizer",
+      "source_branch": "haoze",
+      "in_intermediate_finalpool": true,
+      "dim2_e_code": "E0",
+      "dim2_canonical_verdict": "KEEP"
+    },
+    {
+      "task_id": "haoze/streaming-service",
+      "developer": "haoze",
+      "task_name": "streaming-service",
+      "source_branch": "haoze",
+      "in_intermediate_finalpool": true,
+      "dim2_e_code": "E0",
+      "dim2_canonical_verdict": "KEEP"
+    },
+    {
+      "task_id": "haoze/subtitle-generator",
+      "developer": "haoze",
+      "task_name": "subtitle-generator",
+      "source_branch": "haoze",
+      "in_intermediate_finalpool": true,
+      "dim2_e_code": "E0",
+      "dim2_canonical_verdict": "KEEP"
+    },
+    {
+      "task_id": "haoze/video-trimmer",
+      "developer": "haoze",
+      "task_name": "video-trimmer",
+      "source_branch": "haoze",
+      "in_intermediate_finalpool": false,
+      "dim2_e_code": "E0",
+      "dim2_canonical_verdict": "KEEP"
+    },
+    {
+      "task_id": "jl/canvas-grade-automation",
+      "developer": "jl",
+      "task_name": "canvas-grade-automation",
+      "source_branch": "jl_dev",
+      "in_intermediate_finalpool": true,
+      "dim2_e_code": "E0",
+      "dim2_canonical_verdict": "KEEP"
+    },
+    {
+      "task_id": "jl/customer-feedback-processor",
+      "developer": "jl",
+      "task_name": "customer-feedback-processor",
+      "source_branch": "jl_dev",
+      "in_intermediate_finalpool": true,
+      "dim2_e_code": "E0",
+      "dim2_canonical_verdict": "KEEP"
+    },
+    {
+      "task_id": "jl/email-classification-system",
+      "developer": "jl",
+      "task_name": "email-classification-system",
+      "source_branch": "jl_dev",
+      "in_intermediate_finalpool": true,
+      "dim2_e_code": "E0",
+      "dim2_canonical_verdict": "KEEP"
+    },
+    {
+      "task_id": "jl/inventory-management",
+      "developer": "jl",
+      "task_name": "inventory-management",
+      "source_branch": "jl_dev",
+      "in_intermediate_finalpool": true,
+      "dim2_e_code": "E0",
+      "dim2_canonical_verdict": "KEEP"
+    },
+    {
+      "task_id": "jl/pdf-report-generator",
+      "developer": "jl",
+      "task_name": "pdf-report-generator",
+      "source_branch": "jl_dev",
+      "in_intermediate_finalpool": true,
+      "dim2_e_code": "E0",
+      "dim2_canonical_verdict": "KEEP"
+    },
+    {
+      "task_id": "junteng/booking-system",
+      "developer": "junteng",
+      "task_name": "booking-system",
+      "source_branch": "junteng_dev",
+      "in_intermediate_finalpool": true,
+      "dim2_e_code": "E0",
+      "dim2_canonical_verdict": "KEEP"
+    },
+    {
+      "task_id": "junteng/calendar-sync",
+      "developer": "junteng",
+      "task_name": "calendar-sync",
+      "source_branch": "junteng_dev",
+      "in_intermediate_finalpool": true,
+      "dim2_e_code": "E0",
+      "dim2_canonical_verdict": "KEEP"
+    },
+    {
+      "task_id": "junteng/contact-manager",
+      "developer": "junteng",
+      "task_name": "contact-manager",
+      "source_branch": "junteng_dev",
+      "in_intermediate_finalpool": true,
+      "dim2_e_code": "E0",
+      "dim2_canonical_verdict": "KEEP"
+    },
+    {
+      "task_id": "junteng/help-desk",
+      "developer": "junteng",
+      "task_name": "help-desk",
+      "source_branch": "junteng_dev",
+      "in_intermediate_finalpool": true,
+      "dim2_e_code": "E0",
+      "dim2_canonical_verdict": "KEEP"
+    },
+    {
+      "task_id": "junteng/order-processor",
+      "developer": "junteng",
+      "task_name": "order-processor",
+      "source_branch": "junteng_dev",
+      "in_intermediate_finalpool": false,
+      "dim2_e_code": "E0",
+      "dim2_canonical_verdict": "KEEP"
+    },
+    {
+      "task_id": "junteng/product-catalog",
+      "developer": "junteng",
+      "task_name": "product-catalog",
+      "source_branch": "junteng_dev",
+      "in_intermediate_finalpool": true,
+      "dim2_e_code": "E0",
+      "dim2_canonical_verdict": "KEEP"
+    },
+    {
+      "task_id": "junteng/reminder-service",
+      "developer": "junteng",
+      "task_name": "reminder-service",
+      "source_branch": "junteng_dev",
+      "in_intermediate_finalpool": false,
+      "dim2_e_code": "E0",
+      "dim2_canonical_verdict": "KEEP"
+    },
+    {
+      "task_id": "junteng/shipment-tracker",
+      "developer": "junteng",
+      "task_name": "shipment-tracker",
+      "source_branch": "junteng_dev",
+      "in_intermediate_finalpool": false,
+      "dim2_e_code": "E0",
+      "dim2_canonical_verdict": "KEEP"
+    },
+    {
+      "task_id": "junxian/qr-generator",
+      "developer": "junxian",
+      "task_name": "qr-generator",
+      "source_branch": "junxian_dev",
+      "in_intermediate_finalpool": true,
+      "dim2_e_code": "E0",
+      "dim2_canonical_verdict": "KEEP"
+    },
+    {
+      "task_id": "junxian/social-connector",
+      "developer": "junxian",
+      "task_name": "social-connector",
+      "source_branch": "junxian_dev",
+      "in_intermediate_finalpool": true,
+      "dim2_e_code": "E0",
+      "dim2_canonical_verdict": "KEEP"
+    },
+    {
+      "task_id": "junxian/translation-api",
+      "developer": "junxian",
+      "task_name": "translation-api",
+      "source_branch": "junxian_dev",
+      "in_intermediate_finalpool": false,
+      "dim2_e_code": "E0",
+      "dim2_canonical_verdict": "KEEP"
+    },
+    {
+      "task_id": "lueyang/activity-logger",
+      "developer": "lueyang",
+      "task_name": "activity-logger",
+      "source_branch": "lueyang-dev",
+      "in_intermediate_finalpool": false,
+      "dim2_e_code": "E0",
+      "dim2_canonical_verdict": "KEEP"
+    },
+    {
+      "task_id": "lueyang/client-portal",
+      "developer": "lueyang",
+      "task_name": "client-portal",
+      "source_branch": "lueyang-dev",
+      "in_intermediate_finalpool": true,
+      "dim2_e_code": "E0",
+      "dim2_canonical_verdict": "KEEP"
+    },
+    {
+      "task_id": "lueyang/crm-system",
+      "developer": "lueyang",
+      "task_name": "crm-system",
+      "source_branch": "lueyang-dev",
+      "in_intermediate_finalpool": true,
+      "dim2_e_code": "E0",
+      "dim2_canonical_verdict": "KEEP"
+    },
+    {
+      "task_id": "lueyang/deal-manager",
+      "developer": "lueyang",
+      "task_name": "deal-manager",
+      "source_branch": "lueyang-dev",
+      "in_intermediate_finalpool": true,
+      "dim2_e_code": "E0",
+      "dim2_canonical_verdict": "KEEP"
+    },
+    {
+      "task_id": "lueyang/email-campaign",
+      "developer": "lueyang",
+      "task_name": "email-campaign",
+      "source_branch": "lueyang-dev",
+      "in_intermediate_finalpool": true,
+      "dim2_e_code": "E0",
+      "dim2_canonical_verdict": "KEEP"
+    },
+    {
+      "task_id": "lueyang/follow-up-reminder",
+      "developer": "lueyang",
+      "task_name": "follow-up-reminder",
+      "source_branch": "lueyang-dev",
+      "in_intermediate_finalpool": true,
+      "dim2_e_code": "E0",
+      "dim2_canonical_verdict": "KEEP"
+    },
+    {
+      "task_id": "lueyang/sales-pipeline",
+      "developer": "lueyang",
+      "task_name": "sales-pipeline",
+      "source_branch": "lueyang-dev",
+      "in_intermediate_finalpool": false,
+      "dim2_e_code": "E0",
+      "dim2_canonical_verdict": "KEEP"
+    },
+    {
+      "task_id": "lueyang/territory-manager",
+      "developer": "lueyang",
+      "task_name": "territory-manager",
+      "source_branch": "lueyang-dev",
+      "in_intermediate_finalpool": true,
+      "dim2_e_code": "E0",
+      "dim2_canonical_verdict": "KEEP"
+    },
+    {
+      "task_id": "lv/analytics-dashboard",
+      "developer": "lv",
+      "task_name": "analytics-dashboard",
+      "source_branch": "lv",
+      "in_intermediate_finalpool": false,
+      "dim2_e_code": "E0",
+      "dim2_canonical_verdict": "KEEP"
+    },
+    {
+      "task_id": "lv/chat-bot",
+      "developer": "lv",
+      "task_name": "chat-bot",
+      "source_branch": "lv",
+      "in_intermediate_finalpool": false,
+      "dim2_e_code": "E0",
+      "dim2_canonical_verdict": "KEEP"
+    },
+    {
+      "task_id": "lv/feedback-collector",
+      "developer": "lv",
+      "task_name": "feedback-collector",
+      "source_branch": "lv",
+      "in_intermediate_finalpool": false,
+      "dim2_e_code": "E0",
+      "dim2_canonical_verdict": "KEEP"
+    },
+    {
+      "task_id": "lv/personalization-service",
+      "developer": "lv",
+      "task_name": "personalization-service",
+      "source_branch": "lv",
+      "in_intermediate_finalpool": false,
+      "dim2_e_code": "E0",
+      "dim2_canonical_verdict": "KEEP"
+    },
+    {
+      "task_id": "lv/sentiment-analyzer",
+      "developer": "lv",
+      "task_name": "sentiment-analyzer",
+      "source_branch": "lv",
+      "in_intermediate_finalpool": false,
+      "dim2_e_code": "E0",
+      "dim2_canonical_verdict": "KEEP"
+    },
+    {
+      "task_id": "lv/survey-builder",
+      "developer": "lv",
+      "task_name": "survey-builder",
+      "source_branch": "lv",
+      "in_intermediate_finalpool": false,
+      "dim2_e_code": "E0",
+      "dim2_canonical_verdict": "KEEP"
+    },
+    {
+      "task_id": "lv/voice-processor",
+      "developer": "lv",
+      "task_name": "voice-processor",
+      "source_branch": "lv",
+      "in_intermediate_finalpool": false,
+      "dim2_e_code": "E0",
+      "dim2_canonical_verdict": "KEEP"
+    },
+    {
+      "task_id": "ruige/canvas-automation",
+      "developer": "ruige",
+      "task_name": "canvas-automation",
+      "source_branch": "ruige",
+      "in_intermediate_finalpool": false,
+      "dim2_e_code": "E0",
+      "dim2_canonical_verdict": "KEEP"
+    },
+    {
+      "task_id": "ruige/data-analytics",
+      "developer": "ruige",
+      "task_name": "data-analytics",
+      "source_branch": "ruige",
+      "in_intermediate_finalpool": true,
+      "dim2_e_code": "E0",
+      "dim2_canonical_verdict": "KEEP"
+    },
+    {
+      "task_id": "ruige/expense-tracker",
+      "developer": "ruige",
+      "task_name": "expense-tracker",
+      "source_branch": "ruige",
+      "in_intermediate_finalpool": false,
+      "dim2_e_code": "E0",
+      "dim2_canonical_verdict": "KEEP"
+    },
+    {
+      "task_id": "ruige/file-manager",
+      "developer": "ruige",
+      "task_name": "file-manager",
+      "source_branch": "ruige",
+      "in_intermediate_finalpool": false,
+      "dim2_e_code": "E0",
+      "dim2_canonical_verdict": "KEEP"
+    },
+    {
+      "task_id": "ruige/log-analyzer",
+      "developer": "ruige",
+      "task_name": "log-analyzer",
+      "source_branch": "ruige",
+      "in_intermediate_finalpool": false,
+      "dim2_e_code": "E0",
+      "dim2_canonical_verdict": "KEEP"
+    },
+    {
+      "task_id": "ruige/web-crawler",
+      "developer": "ruige",
+      "task_name": "web-crawler",
+      "source_branch": "ruige",
+      "in_intermediate_finalpool": false,
+      "dim2_e_code": "E0",
+      "dim2_canonical_verdict": "KEEP"
+    },
+    {
+      "task_id": "wenshuo/cache-optimizer",
+      "developer": "wenshuo",
+      "task_name": "cache-optimizer",
+      "source_branch": "wenshuo-dev",
+      "in_intermediate_finalpool": false,
+      "dim2_e_code": "E0",
+      "dim2_canonical_verdict": "KEEP"
+    },
+    {
+      "task_id": "wenshuo/image-processor",
+      "developer": "wenshuo",
+      "task_name": "image-processor",
+      "source_branch": "wenshuo-dev",
+      "in_intermediate_finalpool": false,
+      "dim2_e_code": "E0",
+      "dim2_canonical_verdict": "KEEP"
+    },
+    {
+      "task_id": "wenshuo/scheduler",
+      "developer": "wenshuo",
+      "task_name": "scheduler",
+      "source_branch": "wenshuo-dev",
+      "in_intermediate_finalpool": false,
+      "dim2_e_code": "E0",
+      "dim2_canonical_verdict": "KEEP"
+    },
+    {
+      "task_id": "wenshuo/search-engine",
+      "developer": "wenshuo",
+      "task_name": "search-engine",
+      "source_branch": "wenshuo-dev",
+      "in_intermediate_finalpool": true,
+      "dim2_e_code": "E0",
+      "dim2_canonical_verdict": "KEEP"
+    },
+    {
+      "task_id": "xiaochen/backup-utility",
+      "developer": "xiaochen",
+      "task_name": "backup-utility",
+      "source_branch": "xiaochen_dev",
+      "in_intermediate_finalpool": false,
+      "dim2_e_code": "E0",
+      "dim2_canonical_verdict": "KEEP"
+    },
+    {
+      "task_id": "xiaochen/deployment-tool",
+      "developer": "xiaochen",
+      "task_name": "deployment-tool",
+      "source_branch": "xiaochen_dev",
+      "in_intermediate_finalpool": true,
+      "dim2_e_code": "E0",
+      "dim2_canonical_verdict": "KEEP"
+    },
+    {
+      "task_id": "xiaochen/error-tracker",
+      "developer": "xiaochen",
+      "task_name": "error-tracker",
+      "source_branch": "xiaochen_dev",
+      "in_intermediate_finalpool": true,
+      "dim2_e_code": "E0",
+      "dim2_canonical_verdict": "KEEP"
+    },
+    {
+      "task_id": "xiaochen/health-monitor",
+      "developer": "xiaochen",
+      "task_name": "health-monitor",
+      "source_branch": "xiaochen_dev",
+      "in_intermediate_finalpool": true,
+      "dim2_e_code": "E0",
+      "dim2_canonical_verdict": "KEEP"
+    },
+    {
+      "task_id": "xiaochen/monitoring-agent",
+      "developer": "xiaochen",
+      "task_name": "monitoring-agent",
+      "source_branch": "xiaochen_dev",
+      "in_intermediate_finalpool": true,
+      "dim2_e_code": "E0",
+      "dim2_canonical_verdict": "KEEP"
+    },
+    {
+      "task_id": "xiaochen/security-scanner",
+      "developer": "xiaochen",
+      "task_name": "security-scanner",
+      "source_branch": "xiaochen_dev",
+      "in_intermediate_finalpool": true,
+      "dim2_e_code": "E0",
+      "dim2_canonical_verdict": "KEEP"
+    },
+    {
+      "task_id": "xiaochen/status-checker",
+      "developer": "xiaochen",
+      "task_name": "status-checker",
+      "source_branch": "xiaochen_dev",
+      "in_intermediate_finalpool": false,
+      "dim2_e_code": "E0",
+      "dim2_canonical_verdict": "KEEP"
+    },
+    {
+      "task_id": "yuxuan/asset-optimizer",
+      "developer": "yuxuan",
+      "task_name": "asset-optimizer",
+      "source_branch": "yuxuan-dev",
+      "in_intermediate_finalpool": true,
+      "dim2_e_code": "E0",
+      "dim2_canonical_verdict": "KEEP"
+    },
+    {
+      "task_id": "yuxuan/content-manager",
+      "developer": "yuxuan",
+      "task_name": "content-manager",
+      "source_branch": "yuxuan-dev",
+      "in_intermediate_finalpool": true,
+      "dim2_e_code": "E0",
+      "dim2_canonical_verdict": "KEEP"
+    },
+    {
+      "task_id": "yuxuan/network-analyzer",
+      "developer": "yuxuan",
+      "task_name": "network-analyzer",
+      "source_branch": "yuxuan-dev",
+      "in_intermediate_finalpool": false,
+      "dim2_e_code": "E0",
+      "dim2_canonical_verdict": "KEEP"
+    },
+    {
+      "task_id": "yuxuan/sync-service",
+      "developer": "yuxuan",
+      "task_name": "sync-service",
+      "source_branch": "yuxuan-dev",
+      "in_intermediate_finalpool": false,
+      "dim2_e_code": "E0",
+      "dim2_canonical_verdict": "KEEP"
+    },
+    {
+      "task_id": "yuxuan/task-scheduler",
+      "developer": "yuxuan",
+      "task_name": "task-scheduler",
+      "source_branch": "yuxuan-dev",
+      "in_intermediate_finalpool": false,
+      "dim2_e_code": "E0",
+      "dim2_canonical_verdict": "KEEP"
+    },
+    {
+      "task_id": "yuzhen/alert-system",
+      "developer": "yuzhen",
+      "task_name": "alert-system",
+      "source_branch": "yuzhen-dev",
+      "in_intermediate_finalpool": false,
+      "dim2_e_code": "E0",
+      "dim2_canonical_verdict": "KEEP"
+    },
+    {
+      "task_id": "yuzhen/data-validator",
+      "developer": "yuzhen",
+      "task_name": "data-validator",
+      "source_branch": "yuzhen-dev",
+      "in_intermediate_finalpool": false,
+      "dim2_e_code": "E0",
+      "dim2_canonical_verdict": "KEEP"
+    },
+    {
+      "task_id": "yuzhen/form-builder",
+      "developer": "yuzhen",
+      "task_name": "form-builder",
+      "source_branch": "yuzhen-dev",
+      "in_intermediate_finalpool": false,
+      "dim2_e_code": "E0",
+      "dim2_canonical_verdict": "KEEP"
+    },
+    {
+      "task_id": "yuzhen/invoice-generator",
+      "developer": "yuzhen",
+      "task_name": "invoice-generator",
+      "source_branch": "yuzhen-dev",
+      "in_intermediate_finalpool": false,
+      "dim2_e_code": "E0",
+      "dim2_canonical_verdict": "KEEP"
+    },
+    {
+      "task_id": "yuzhen/payment-processor",
+      "developer": "yuzhen",
+      "task_name": "payment-processor",
+      "source_branch": "yuzhen-dev",
+      "in_intermediate_finalpool": true,
+      "dim2_e_code": "E0",
+      "dim2_canonical_verdict": "KEEP"
+    },
+    {
+      "task_id": "yuzhen/permission-manager",
+      "developer": "yuzhen",
+      "task_name": "permission-manager",
+      "source_branch": "yuzhen-dev",
+      "in_intermediate_finalpool": false,
+      "dim2_e_code": "E0",
+      "dim2_canonical_verdict": "KEEP"
+    },
+    {
+      "task_id": "zhaochen/certificate-manager",
+      "developer": "zhaochen",
+      "task_name": "certificate-manager",
+      "source_branch": "zhaochen",
+      "in_intermediate_finalpool": false,
+      "dim2_e_code": "E0",
+      "dim2_canonical_verdict": "KEEP"
+    },
+    {
+      "task_id": "zhaochen/load-balancer",
+      "developer": "zhaochen",
+      "task_name": "load-balancer",
+      "source_branch": "zhaochen",
+      "in_intermediate_finalpool": false,
+      "dim2_e_code": "E0",
+      "dim2_canonical_verdict": "KEEP"
+    },
+    {
+      "task_id": "zhaochen/storage-manager",
+      "developer": "zhaochen",
+      "task_name": "storage-manager",
+      "source_branch": "zhaochen",
+      "in_intermediate_finalpool": false,
+      "dim2_e_code": "E0",
+      "dim2_canonical_verdict": "KEEP"
+    },
+    {
+      "task_id": "zhaochen/template-engine",
+      "developer": "zhaochen",
+      "task_name": "template-engine",
+      "source_branch": "zhaochen",
+      "in_intermediate_finalpool": false,
+      "dim2_e_code": "E0",
+      "dim2_canonical_verdict": "KEEP"
+    }
+  ]
+}
