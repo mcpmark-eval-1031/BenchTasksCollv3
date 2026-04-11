@@ -1,0 +1,117 @@
+task_id,developer,task_name,source_branch,dim1_boundary_verdict,dim1_boundary_rule_code,dim1_boundary_rule_label,dim1_task_md_size_bytes,dim1_in_intermediate_fp,dim2_canonical_e_code,dim2_canonical_verdict,dim2_in_intermediate_fp,dim2_intermediate_verdict,dimensions_agree,conflict_type,resolved_verdict,resolution_rule
+fan/coupon-manager,fan,coupon-manager,fan-dev,KEEP,E0,Passes all inclusion criteria,87,yes,E0,KEEP,YES,KEEP,yes,none,KEEP,both_dimensions_agree
+fan/discount-calculator,fan,discount-calculator,fan-dev,DROP,E1,CJK characters detected in docs/ file,163,no,E0,KEEP,NO,absent,no,dim1_DROP_E1_vs_dim2_KEEP_E0,KEEP,SR-2:canonical_finalpool_wins
+fan/loyalty-program,fan,loyalty-program,fan-dev,KEEP,E0,Passes all inclusion criteria,89,yes,E0,KEEP,YES,KEEP,yes,none,KEEP,both_dimensions_agree
+fan/price-tracker,fan,price-tracker,fan-dev,KEEP,E0,Passes all inclusion criteria,83,yes,E0,KEEP,YES,KEEP,yes,none,KEEP,both_dimensions_agree
+fan/product-comparator,fan,product-comparator,fan-dev,KEEP,E0,Passes all inclusion criteria,95,yes,E1,DROP,YES,KEEP,no,dim1_KEEP_E0_vs_dim2_DROP_E1,DROP,SR-2:canonical_finalpool_wins
+fan/review-aggregator,fan,review-aggregator,fan-dev,DROP,E3,Structurally complete; dropped for semantic uniqueness,93,yes,E3,DROP,YES,KEEP,yes,none,DROP,both_dimensions_agree
+fan/shopping-cart,fan,shopping-cart,fan-dev,DROP,E3,Structurally complete; dropped for semantic uniqueness,85,yes,E1,DROP,YES,KEEP,yes,none,DROP,both_dimensions_agree
+fan/wishlist-manager,fan,wishlist-manager,fan-dev,DROP,E3,Structurally complete; dropped for semantic uniqueness,91,yes,E3,DROP,YES,KEEP,yes,none,DROP,both_dimensions_agree
+gyy/blog-engine,gyy,blog-engine,gyy,KEEP,E0,Passes all inclusion criteria,81,yes,E0,KEEP,YES,KEEP,yes,none,KEEP,both_dimensions_agree
+gyy/cms-builder,gyy,cms-builder,gyy,KEEP,E0,Passes all inclusion criteria,79,yes,E0,KEEP,YES,KEEP,yes,none,KEEP,both_dimensions_agree
+gyy/comment-moderator,gyy,comment-moderator,gyy,KEEP,E0,Passes all inclusion criteria,89,yes,E3,DROP,YES,KEEP,no,dim1_KEEP_E0_vs_dim2_DROP_E3,DROP,SR-2:canonical_finalpool_wins
+gyy/content-scheduler,gyy,content-scheduler,gyy,DROP,E2,Missing evaluation/main.py or required workspace directory,91,no,E0,KEEP,NO,absent,no,dim1_DROP_E2_vs_dim2_KEEP_E0,KEEP,SR-2:canonical_finalpool_wins
+gyy/robots-handler,gyy,robots-handler,gyy,KEEP,E0,Passes all inclusion criteria,85,yes,E0,KEEP,YES,KEEP,yes,none,KEEP,both_dimensions_agree
+gyy/seo-optimizer,gyy,seo-optimizer,gyy,KEEP,E0,Passes all inclusion criteria,83,yes,E1,DROP,YES,KEEP,no,dim1_KEEP_E0_vs_dim2_DROP_E1,DROP,SR-2:canonical_finalpool_wins
+gyy/sitemap-generator,gyy,sitemap-generator,gyy,DROP,E2,Missing evaluation/main.py or required workspace directory,91,no,E2,DROP,NO,absent,yes,none,DROP,both_dimensions_agree
+gyy/social-publisher,gyy,social-publisher,gyy,DROP,E2,Missing evaluation/main.py or required workspace directory,93,no,E0,KEEP,NO,absent,no,dim1_DROP_E2_vs_dim2_KEEP_E0,KEEP,SR-2:canonical_finalpool_wins
+gyy/tag-manager,gyy,tag-manager,gyy,KEEP,E0,Passes all inclusion criteria,79,yes,E0,KEEP,YES,KEEP,yes,none,KEEP,both_dimensions_agree
+haoze/audio-converter,haoze,audio-converter,haoze,KEEP,E0,Passes all inclusion criteria,85,yes,E1,DROP,YES,KEEP,no,dim1_KEEP_E0_vs_dim2_DROP_E1,DROP,SR-2:canonical_finalpool_wins
+haoze/media-organizer,haoze,media-organizer,haoze,KEEP,E0,Passes all inclusion criteria,87,yes,E0,KEEP,YES,KEEP,yes,none,KEEP,both_dimensions_agree
+haoze/photo-editor,haoze,photo-editor,haoze,KEEP,E0,Passes all inclusion criteria,79,yes,E1,DROP,YES,KEEP,no,dim1_KEEP_E0_vs_dim2_DROP_E1,DROP,SR-2:canonical_finalpool_wins
+haoze/streaming-service,haoze,streaming-service,haoze,KEEP,E0,Passes all inclusion criteria,89,yes,E0,KEEP,YES,KEEP,yes,none,KEEP,both_dimensions_agree
+haoze/subtitle-generator,haoze,subtitle-generator,haoze,DROP,E1,CJK characters detected in docs/ file,160,yes,E0,KEEP,YES,KEEP,no,dim1_DROP_E1_vs_dim2_KEEP_E0,KEEP,SR-2:canonical_finalpool_wins
+haoze/thumbnail-creator,haoze,thumbnail-creator,haoze,DROP,E1,CJK characters detected in docs/ file,157,yes,E3,DROP,YES,KEEP,yes,none,DROP,both_dimensions_agree
+haoze/video-trimmer,haoze,video-trimmer,haoze,DROP,E1,CJK characters detected in docs/ file,142,no,E0,KEEP,NO,absent,no,dim1_DROP_E1_vs_dim2_KEEP_E0,KEEP,SR-2:canonical_finalpool_wins
+jl/canvas-grade-automation,jl,canvas-grade-automation,jl_dev,KEEP,E0,Passes all inclusion criteria,113,yes,E0,KEEP,YES,KEEP,yes,none,KEEP,both_dimensions_agree
+jl/customer-feedback-processor,jl,customer-feedback-processor,jl_dev,KEEP,E0,Passes all inclusion criteria,115,yes,E0,KEEP,YES,KEEP,yes,none,KEEP,both_dimensions_agree
+jl/email-classification-system,jl,email-classification-system,jl_dev,KEEP,E0,Passes all inclusion criteria,111,yes,E0,KEEP,YES,KEEP,yes,none,KEEP,both_dimensions_agree
+jl/inventory-management,jl,inventory-management,jl_dev,KEEP,E0,Passes all inclusion criteria,99,yes,E0,KEEP,YES,KEEP,yes,none,KEEP,both_dimensions_agree
+jl/monthly-sales-analysis,jl,monthly-sales-analysis,jl_dev,DROP,E1,CJK characters detected in docs/ file,172,yes,E1,DROP,YES,KEEP,yes,none,DROP,both_dimensions_agree
+jl/pdf-report-generator,jl,pdf-report-generator,jl_dev,KEEP,E0,Passes all inclusion criteria,105,yes,E0,KEEP,YES,KEEP,yes,none,KEEP,both_dimensions_agree
+jl/weekly-expense-tracker,jl,weekly-expense-tracker,jl_dev,DROP,E2,Missing evaluation/main.py or required workspace directory,97,no,E2,DROP,NO,absent,yes,none,DROP,both_dimensions_agree
+junteng/booking-system,junteng,booking-system,junteng_dev,KEEP,E0,Passes all inclusion criteria,85,yes,E0,KEEP,YES,KEEP,yes,none,KEEP,both_dimensions_agree
+junteng/calendar-sync,junteng,calendar-sync,junteng_dev,KEEP,E0,Passes all inclusion criteria,79,yes,E0,KEEP,YES,KEEP,yes,none,KEEP,both_dimensions_agree
+junteng/contact-manager,junteng,contact-manager,junteng_dev,KEEP,E0,Passes all inclusion criteria,87,yes,E0,KEEP,YES,KEEP,yes,none,KEEP,both_dimensions_agree
+junteng/customer-portal,junteng,customer-portal,junteng_dev,DROP,E2,Missing evaluation/main.py or required workspace directory,93,no,E2,DROP,NO,absent,yes,none,DROP,both_dimensions_agree
+junteng/help-desk,junteng,help-desk,junteng_dev,KEEP,E0,Passes all inclusion criteria,77,yes,E0,KEEP,YES,KEEP,yes,none,KEEP,both_dimensions_agree
+junteng/inventory-tracker,junteng,inventory-tracker,junteng_dev,KEEP,E0,Passes all inclusion criteria,91,yes,E1,DROP,YES,KEEP,no,dim1_KEEP_E0_vs_dim2_DROP_E1,DROP,SR-2:canonical_finalpool_wins
+junteng/order-processor,junteng,order-processor,junteng_dev,KEEP,E0,Passes all inclusion criteria,89,no,E0,KEEP,NO,absent,yes,none,KEEP,both_dimensions_agree
+junteng/product-catalog,junteng,product-catalog,junteng_dev,KEEP,E0,Passes all inclusion criteria,87,yes,E0,KEEP,YES,KEEP,yes,none,KEEP,both_dimensions_agree
+junteng/reminder-service,junteng,reminder-service,junteng_dev,DROP,E1,CJK characters detected in docs/ file,154,no,E0,KEEP,NO,absent,no,dim1_DROP_E1_vs_dim2_KEEP_E0,KEEP,SR-2:canonical_finalpool_wins
+junteng/shipment-tracker,junteng,shipment-tracker,junteng_dev,KEEP,E0,Passes all inclusion criteria,91,no,E0,KEEP,NO,absent,yes,none,KEEP,both_dimensions_agree
+junxian/barcode-scanner,junxian,barcode-scanner,junxian_dev,KEEP,E0,Passes all inclusion criteria,87,yes,E1,DROP,YES,KEEP,no,dim1_KEEP_E0_vs_dim2_DROP_E1,DROP,SR-2:canonical_finalpool_wins
+junxian/currency-converter,junxian,currency-converter,junxian_dev,KEEP,E0,Passes all inclusion criteria,91,yes,E1,DROP,YES,KEEP,no,dim1_KEEP_E0_vs_dim2_DROP_E1,DROP,SR-2:canonical_finalpool_wins
+junxian/location-tracker,junxian,location-tracker,junxian_dev,DROP,E2,Missing evaluation/main.py or required workspace directory,91,no,E2,DROP,NO,absent,yes,none,DROP,both_dimensions_agree
+junxian/qr-generator,junxian,qr-generator,junxian_dev,KEEP,E0,Passes all inclusion criteria,79,yes,E0,KEEP,YES,KEEP,yes,none,KEEP,both_dimensions_agree
+junxian/social-connector,junxian,social-connector,junxian_dev,DROP,E3,Structurally complete; dropped for semantic uniqueness,91,yes,E0,KEEP,YES,KEEP,no,dim1_DROP_E3_vs_dim2_KEEP_E0,KEEP,SR-2:canonical_finalpool_wins
+junxian/translation-api,junxian,translation-api,junxian_dev,DROP,E2,Missing evaluation/main.py or required workspace directory,89,no,E0,KEEP,NO,absent,no,dim1_DROP_E2_vs_dim2_KEEP_E0,KEEP,SR-2:canonical_finalpool_wins
+junxian/url-shortener,junxian,url-shortener,junxian_dev,DROP,E3,Structurally complete; dropped for semantic uniqueness,85,yes,E3,DROP,YES,KEEP,yes,none,DROP,both_dimensions_agree
+junxian/weather-service,junxian,weather-service,junxian_dev,DROP,E3,Structurally complete; dropped for semantic uniqueness,89,yes,E1,DROP,YES,KEEP,yes,none,DROP,both_dimensions_agree
+lueyang/activity-logger,lueyang,activity-logger,lueyang-dev,DROP,E2,Missing evaluation/main.py or required workspace directory,91,no,E0,KEEP,NO,absent,no,dim1_DROP_E2_vs_dim2_KEEP_E0,KEEP,SR-2:canonical_finalpool_wins
+lueyang/client-portal,lueyang,client-portal,lueyang-dev,KEEP,E0,Passes all inclusion criteria,83,yes,E0,KEEP,YES,KEEP,yes,none,KEEP,both_dimensions_agree
+lueyang/contact-scorer,lueyang,contact-scorer,lueyang-dev,KEEP,E0,Passes all inclusion criteria,89,yes,E1,DROP,YES,KEEP,no,dim1_KEEP_E0_vs_dim2_DROP_E1,DROP,SR-2:canonical_finalpool_wins
+lueyang/crm-system,lueyang,crm-system,lueyang-dev,KEEP,E0,Passes all inclusion criteria,77,yes,E0,KEEP,YES,KEEP,yes,none,KEEP,both_dimensions_agree
+lueyang/deal-manager,lueyang,deal-manager,lueyang-dev,KEEP,E0,Passes all inclusion criteria,81,yes,E0,KEEP,YES,KEEP,yes,none,KEEP,both_dimensions_agree
+lueyang/email-campaign,lueyang,email-campaign,lueyang-dev,KEEP,E0,Passes all inclusion criteria,85,yes,E0,KEEP,YES,KEEP,yes,none,KEEP,both_dimensions_agree
+lueyang/follow-up-reminder,lueyang,follow-up-reminder,lueyang-dev,KEEP,E0,Passes all inclusion criteria,99,yes,E0,KEEP,YES,KEEP,yes,none,KEEP,both_dimensions_agree
+lueyang/lead-tracker,lueyang,lead-tracker,lueyang-dev,KEEP,E0,Passes all inclusion criteria,83,yes,E3,DROP,YES,KEEP,no,dim1_KEEP_E0_vs_dim2_DROP_E3,DROP,SR-2:canonical_finalpool_wins
+lueyang/sales-pipeline,lueyang,sales-pipeline,lueyang-dev,DROP,E2,Missing evaluation/main.py or required workspace directory,87,no,E0,KEEP,NO,absent,no,dim1_DROP_E2_vs_dim2_KEEP_E0,KEEP,SR-2:canonical_finalpool_wins
+lueyang/territory-manager,lueyang,territory-manager,lueyang-dev,KEEP,E0,Passes all inclusion criteria,97,yes,E0,KEEP,YES,KEEP,yes,none,KEEP,both_dimensions_agree
+lv/analytics-dashboard,lv,analytics-dashboard,lv,KEEP,E0,Passes all inclusion criteria,99,no,E0,KEEP,NO,absent,yes,none,KEEP,both_dimensions_agree
+lv/chat-bot,lv,chat-bot,lv,DROP,E1,CJK characters detected in docs/ file,130,no,E0,KEEP,NO,absent,no,dim1_DROP_E1_vs_dim2_KEEP_E0,KEEP,SR-2:canonical_finalpool_wins
+lv/feedback-collector,lv,feedback-collector,lv,KEEP,E0,Passes all inclusion criteria,101,no,E0,KEEP,NO,absent,yes,none,KEEP,both_dimensions_agree
+lv/insights-engine,lv,insights-engine,lv,KEEP,E0,Passes all inclusion criteria,89,yes,E1,DROP,YES,KEEP,no,dim1_KEEP_E0_vs_dim2_DROP_E1,DROP,SR-2:canonical_finalpool_wins
+lv/personalization-service,lv,personalization-service,lv,KEEP,E0,Passes all inclusion criteria,109,no,E0,KEEP,NO,absent,yes,none,KEEP,both_dimensions_agree
+lv/recommendation-engine,lv,recommendation-engine,lv,KEEP,E0,Passes all inclusion criteria,107,no,E2,DROP,NO,absent,no,dim1_KEEP_E0_vs_dim2_DROP_E2,DROP,SR-2:canonical_finalpool_wins
+lv/sentiment-analyzer,lv,sentiment-analyzer,lv,KEEP,E0,Passes all inclusion criteria,101,no,E0,KEEP,NO,absent,yes,none,KEEP,both_dimensions_agree
+lv/survey-builder,lv,survey-builder,lv,KEEP,E0,Passes all inclusion criteria,87,no,E0,KEEP,NO,absent,yes,none,KEEP,both_dimensions_agree
+lv/voice-processor,lv,voice-processor,lv,DROP,E1,CJK characters detected in docs/ file,151,no,E0,KEEP,NO,absent,no,dim1_DROP_E1_vs_dim2_KEEP_E0,KEEP,SR-2:canonical_finalpool_wins
+ruige/canvas-automation,ruige,canvas-automation,ruige,DROP,E1,CJK characters detected in docs/ file,154,no,E0,KEEP,NO,absent,no,dim1_DROP_E1_vs_dim2_KEEP_E0,KEEP,SR-2:canonical_finalpool_wins
+ruige/data-analytics,ruige,data-analytics,ruige,KEEP,E0,Passes all inclusion criteria,85,yes,E0,KEEP,YES,KEEP,yes,none,KEEP,both_dimensions_agree
+ruige/expense-tracker,ruige,expense-tracker,ruige,DROP,E1,CJK characters detected in docs/ file,151,no,E0,KEEP,NO,absent,no,dim1_DROP_E1_vs_dim2_KEEP_E0,KEEP,SR-2:canonical_finalpool_wins
+ruige/file-manager,ruige,file-manager,ruige,KEEP,E0,Passes all inclusion criteria,81,no,E0,KEEP,NO,absent,yes,none,KEEP,both_dimensions_agree
+ruige/log-analyzer,ruige,log-analyzer,ruige,KEEP,E0,Passes all inclusion criteria,83,no,E0,KEEP,NO,absent,yes,none,KEEP,both_dimensions_agree
+ruige/pdf-processor,ruige,pdf-processor,ruige,KEEP,E0,Passes all inclusion criteria,85,no,E2,DROP,NO,absent,no,dim1_KEEP_E0_vs_dim2_DROP_E2,DROP,SR-2:canonical_finalpool_wins
+ruige/report-generator,ruige,report-generator,ruige,KEEP,E0,Passes all inclusion criteria,91,yes,E1,DROP,YES,KEEP,no,dim1_KEEP_E0_vs_dim2_DROP_E1,DROP,SR-2:canonical_finalpool_wins
+ruige/web-crawler,ruige,web-crawler,ruige,KEEP,E0,Passes all inclusion criteria,79,no,E0,KEEP,NO,absent,yes,none,KEEP,both_dimensions_agree
+wenshuo/cache-optimizer,wenshuo,cache-optimizer,wenshuo-dev,DROP,E2,Missing evaluation/main.py or required workspace directory,91,no,E0,KEEP,NO,absent,no,dim1_DROP_E2_vs_dim2_KEEP_E0,KEEP,SR-2:canonical_finalpool_wins
+wenshuo/document-parser,wenshuo,document-parser,wenshuo-dev,KEEP,E0,Passes all inclusion criteria,89,yes,E3,DROP,YES,KEEP,no,dim1_KEEP_E0_vs_dim2_DROP_E3,DROP,SR-2:canonical_finalpool_wins
+wenshuo/image-processor,wenshuo,image-processor,wenshuo-dev,DROP,E3,Structurally complete; dropped for semantic uniqueness,91,no,E0,KEEP,NO,absent,no,dim1_DROP_E3_vs_dim2_KEEP_E0,KEEP,SR-2:canonical_finalpool_wins
+wenshuo/performance-monitor,wenshuo,performance-monitor,wenshuo-dev,KEEP,E0,Passes all inclusion criteria,101,yes,E1,DROP,YES,KEEP,no,dim1_KEEP_E0_vs_dim2_DROP_E1,DROP,SR-2:canonical_finalpool_wins
+wenshuo/scheduler,wenshuo,scheduler,wenshuo-dev,DROP,E3,Structurally complete; dropped for semantic uniqueness,77,no,E0,KEEP,NO,absent,no,dim1_DROP_E3_vs_dim2_KEEP_E0,KEEP,SR-2:canonical_finalpool_wins
+wenshuo/search-engine,wenshuo,search-engine,wenshuo-dev,KEEP,E0,Passes all inclusion criteria,83,yes,E0,KEEP,YES,KEEP,yes,none,KEEP,both_dimensions_agree
+wenshuo/workflow-automation,wenshuo,workflow-automation,wenshuo-dev,KEEP,E0,Passes all inclusion criteria,101,yes,E1,DROP,YES,KEEP,no,dim1_KEEP_E0_vs_dim2_DROP_E1,DROP,SR-2:canonical_finalpool_wins
+xiaochen/backup-utility,xiaochen,backup-utility,xiaochen_dev,DROP,E1,CJK characters detected in docs/ file,148,no,E0,KEEP,NO,absent,no,dim1_DROP_E1_vs_dim2_KEEP_E0,KEEP,SR-2:canonical_finalpool_wins
+xiaochen/code-reviewer,xiaochen,code-reviewer,xiaochen_dev,DROP,E3,Structurally complete; dropped for semantic uniqueness,85,yes,E3,DROP,YES,KEEP,yes,none,DROP,both_dimensions_agree
+xiaochen/deployment-tool,xiaochen,deployment-tool,xiaochen_dev,KEEP,E0,Passes all inclusion criteria,89,yes,E0,KEEP,YES,KEEP,yes,none,KEEP,both_dimensions_agree
+xiaochen/error-tracker,xiaochen,error-tracker,xiaochen_dev,KEEP,E0,Passes all inclusion criteria,83,yes,E0,KEEP,YES,KEEP,yes,none,KEEP,both_dimensions_agree
+xiaochen/health-monitor,xiaochen,health-monitor,xiaochen_dev,KEEP,E0,Passes all inclusion criteria,87,yes,E0,KEEP,YES,KEEP,yes,none,KEEP,both_dimensions_agree
+xiaochen/migration-script,xiaochen,migration-script,xiaochen_dev,DROP,E1,CJK characters detected in docs/ file,154,no,E2,DROP,NO,absent,yes,none,DROP,both_dimensions_agree
+xiaochen/monitoring-agent,xiaochen,monitoring-agent,xiaochen_dev,KEEP,E0,Passes all inclusion criteria,91,yes,E0,KEEP,YES,KEEP,yes,none,KEEP,both_dimensions_agree
+xiaochen/security-scanner,xiaochen,security-scanner,xiaochen_dev,KEEP,E0,Passes all inclusion criteria,91,yes,E0,KEEP,YES,KEEP,yes,none,KEEP,both_dimensions_agree
+xiaochen/status-checker,xiaochen,status-checker,xiaochen_dev,KEEP,E0,Passes all inclusion criteria,85,no,E0,KEEP,NO,absent,yes,none,KEEP,both_dimensions_agree
+xiaochen/test-generator,xiaochen,test-generator,xiaochen_dev,KEEP,E0,Passes all inclusion criteria,83,no,E2,DROP,NO,absent,no,dim1_KEEP_E0_vs_dim2_DROP_E2,DROP,SR-2:canonical_finalpool_wins
+yuxuan/asset-optimizer,yuxuan,asset-optimizer,yuxuan-dev,KEEP,E0,Passes all inclusion criteria,87,yes,E0,KEEP,YES,KEEP,yes,none,KEEP,both_dimensions_agree
+yuxuan/batch-processor,yuxuan,batch-processor,yuxuan-dev,DROP,E1,CJK characters detected in docs/ file,151,no,E2,DROP,NO,absent,yes,none,DROP,both_dimensions_agree
+yuxuan/content-manager,yuxuan,content-manager,yuxuan-dev,KEEP,E0,Passes all inclusion criteria,89,yes,E0,KEEP,YES,KEEP,yes,none,KEEP,both_dimensions_agree
+yuxuan/network-analyzer,yuxuan,network-analyzer,yuxuan-dev,KEEP,E0,Passes all inclusion criteria,95,no,E0,KEEP,NO,absent,yes,none,KEEP,both_dimensions_agree
+yuxuan/queue-manager,yuxuan,queue-manager,yuxuan-dev,DROP,E1,CJK characters detected in docs/ file,145,no,E2,DROP,NO,absent,yes,none,DROP,both_dimensions_agree
+yuxuan/sync-service,yuxuan,sync-service,yuxuan-dev,KEEP,E0,Passes all inclusion criteria,81,no,E0,KEEP,NO,absent,yes,none,KEEP,both_dimensions_agree
+yuxuan/task-scheduler,yuxuan,task-scheduler,yuxuan-dev,KEEP,E0,Passes all inclusion criteria,91,no,E0,KEEP,NO,absent,yes,none,KEEP,both_dimensions_agree
+yuzhen/alert-system,yuzhen,alert-system,yuzhen-dev,DROP,E1,CJK characters detected in docs/ file,142,no,E0,KEEP,NO,absent,no,dim1_DROP_E1_vs_dim2_KEEP_E0,KEEP,SR-2:canonical_finalpool_wins
+yuzhen/audit-logger,yuzhen,audit-logger,yuzhen-dev,KEEP,E0,Passes all inclusion criteria,83,yes,E1,DROP,YES,KEEP,no,dim1_KEEP_E0_vs_dim2_DROP_E1,DROP,SR-2:canonical_finalpool_wins
+yuzhen/data-validator,yuzhen,data-validator,yuzhen-dev,DROP,E1,CJK characters detected in docs/ file,148,no,E0,KEEP,NO,absent,no,dim1_DROP_E1_vs_dim2_KEEP_E0,KEEP,SR-2:canonical_finalpool_wins
+yuzhen/form-builder,yuzhen,form-builder,yuzhen-dev,DROP,E1,CJK characters detected in docs/ file,142,no,E0,KEEP,NO,absent,no,dim1_DROP_E1_vs_dim2_KEEP_E0,KEEP,SR-2:canonical_finalpool_wins
+yuzhen/invoice-generator,yuzhen,invoice-generator,yuzhen-dev,KEEP,E0,Passes all inclusion criteria,97,no,E0,KEEP,NO,absent,yes,none,KEEP,both_dimensions_agree
+yuzhen/payment-processor,yuzhen,payment-processor,yuzhen-dev,KEEP,E0,Passes all inclusion criteria,97,yes,E0,KEEP,YES,KEEP,yes,none,KEEP,both_dimensions_agree
+yuzhen/permission-manager,yuzhen,permission-manager,yuzhen-dev,KEEP,E0,Passes all inclusion criteria,99,no,E0,KEEP,NO,absent,yes,none,KEEP,both_dimensions_agree
+yuzhen/resource-monitor,yuzhen,resource-monitor,yuzhen-dev,KEEP,E0,Passes all inclusion criteria,97,yes,E1,DROP,YES,KEEP,no,dim1_KEEP_E0_vs_dim2_DROP_E1,DROP,SR-2:canonical_finalpool_wins
+yuzhen/session-handler,yuzhen,session-handler,yuzhen-dev,KEEP,E0,Passes all inclusion criteria,89,yes,E1,DROP,YES,KEEP,no,dim1_KEEP_E0_vs_dim2_DROP_E1,DROP,SR-2:canonical_finalpool_wins
+zhaochen/api-tester,zhaochen,api-tester,zhaochen,KEEP,E0,Passes all inclusion criteria,77,yes,E1,DROP,YES,KEEP,no,dim1_KEEP_E0_vs_dim2_DROP_E1,DROP,SR-2:canonical_finalpool_wins
+zhaochen/certificate-manager,zhaochen,certificate-manager,zhaochen,DROP,E1,CJK characters detected in docs/ file,166,no,E0,KEEP,NO,absent,no,dim1_DROP_E1_vs_dim2_KEEP_E0,KEEP,SR-2:canonical_finalpool_wins
+zhaochen/load-balancer,zhaochen,load-balancer,zhaochen,DROP,E1,CJK characters detected in docs/ file,145,no,E0,KEEP,NO,absent,no,dim1_DROP_E1_vs_dim2_KEEP_E0,KEEP,SR-2:canonical_finalpool_wins
+zhaochen/markdown-converter,zhaochen,markdown-converter,zhaochen,KEEP,E0,Passes all inclusion criteria,101,yes,E3,DROP,YES,KEEP,no,dim1_KEEP_E0_vs_dim2_DROP_E3,DROP,SR-2:canonical_finalpool_wins
+zhaochen/proxy-server,zhaochen,proxy-server,zhaochen,KEEP,E0,Passes all inclusion criteria,79,yes,E1,DROP,YES,KEEP,no,dim1_KEEP_E0_vs_dim2_DROP_E1,DROP,SR-2:canonical_finalpool_wins
+zhaochen/storage-manager,zhaochen,storage-manager,zhaochen,DROP,E1,CJK characters detected in docs/ file,151,no,E0,KEEP,NO,absent,no,dim1_DROP_E1_vs_dim2_KEEP_E0,KEEP,SR-2:canonical_finalpool_wins
+zhaochen/template-engine,zhaochen,template-engine,zhaochen,KEEP,E0,Passes all inclusion criteria,87,no,E0,KEEP,NO,absent,yes,none,KEEP,both_dimensions_agree
