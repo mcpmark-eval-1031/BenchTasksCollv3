@@ -1,0 +1,90 @@
+{
+  "overall_task_verdict": {
+    "value": "INSTANCE-DEPENDENT",
+    "authoritative_source": "decision_summary_pair_1.md",
+    "source_branch": "review-personal-website-construct-6",
+    "source_repo": "mcpmark-eval-1031/BenchTasksCollv3",
+    "conflict_type": "snapshot_conflict",
+    "rationale": "Canonical resolution: verdict differs per agent-instance; _5=PASS, _6=FAIL — not a single value conflict; instance identity is the discriminating field"
+  },
+  "destination_namespace": {
+    "value": "INSTANCE-SPECIFIC (mazextest2026 for _5 / bugmaker00 for _6)",
+    "authoritative_source": "decision_summary_pair_1.md + evidence_notes_single_2.md",
+    "source_branch": "review-personal-website-construct-6 / source-review-single-2",
+    "source_repo": "mcpmark-eval-1031/BenchTasksCollv3",
+    "conflict_type": "snapshot_conflict",
+    "rationale": "Canonical: namespace is agent-specific; each instance uses the agent-account prefix + /LJT-Homepage suffix as required by task"
+  },
+  "memory_source_repo": {
+    "value": "INSTANCE-SPECIFIC (Klavis-AI/Toolathlon-mvp for _5 / hkust-nlp/Toolathlon for _6)",
+    "authoritative_source": "evidence_notes_single_2.md + decision_summary_pair_1.md",
+    "source_branch": "source-review-single-2 / review-personal-website-construct-6",
+    "source_repo": "mcpmark-eval-1031/BenchTasksCollv3",
+    "conflict_type": "label_conflict",
+    "rationale": "Canonical: both repos serve same memory.json content (SHA 45929f86); the underlying personal data (Junteng Liu) is identical across both instances"
+  },
+  "LICENSE/review_verdict": {
+    "value": "NOT_BLOCKING (not checked by evaluation script)",
+    "authoritative_source": "check_remote.py evaluation script logic",
+    "source_branch": "finalpool",
+    "source_repo": "mcpmark-eval-1031/BenchTasksCollv3",
+    "conflict_type": "label_conflict",
+    "rationale": "Canonical: check_remote.py evaluation does not verify LICENSE presence; verdict is advisory only. License removal does not cause PASS->FAIL. Recommend restoring MIT license for attribution clarity but not task-blocking"
+  },
+  "_gitignore/review_verdict": {
+    "value": "NOT_BLOCKING (low-risk advisory)",
+    "authoritative_source": "evidence_notes_single_2.md",
+    "source_branch": "source-review-single-2",
+    "source_repo": "mcpmark-eval-1031/BenchTasksCollv3",
+    "conflict_type": "label_conflict",
+    "rationale": "Canonical: evidence notes confirm low-risk; check_remote.py does not check .gitignore; advisory to restore for repository hygiene"
+  },
+  "_pages/publications.html/review_verdict": {
+    "value": "DROP (compliant via alternate path)",
+    "authoritative_source": "evidence_notes_single_2.md",
+    "source_branch": "source-review-single-2",
+    "source_repo": "mcpmark-eval-1031/BenchTasksCollv3",
+    "conflict_type": "label_conflict",
+    "rationale": "Canonical: evidence_notes confirms compliant — about.md lists all 6 publications satisfying task requirement; _publications/*.md collection serves as structural alternative; evaluation checks about.md not publications.html"
+  },
+  "_pages/category-archive.html/review_verdict": {
+    "value": "DROP (low risk for stripped-down personal site)",
+    "authoritative_source": "evidence_notes_single_2.md",
+    "source_branch": "source-review-single-2",
+    "source_repo": "mcpmark-eval-1031/BenchTasksCollv3",
+    "conflict_type": "label_conflict",
+    "rationale": "Canonical: evidence notes rate risk as low given stripped sections (no blog/talks/portfolio); no category front-matter in personal content; evaluation does not check for this page"
+  },
+  "total_task_count_in_finalpool": {
+    "value": "77 (77 kept from 116 boundary-reviewed; 67 is intermediate pre-curation count)",
+    "authoritative_source": "readback_audit.md",
+    "source_branch": "finalpool",
+    "source_repo": "bugmaker00/BenchTasksCollv3-review",
+    "conflict_type": "multi_source_conflict",
+    "rationale": "Canonical: 77 is the post-editorial-curation count; 67 was the intermediate count before 9 E3 tasks were dropped and 1 additional task added; readback_audit.md is machine-verified"
+  },
+  "project_name": {
+    "value": "MCPBench-Dev",
+    "authoritative_source": "README.md",
+    "source_branch": "main",
+    "source_repo": "mcpmark-eval-1031/BenchTasksCollv3",
+    "conflict_type": "label_conflict",
+    "rationale": "Active working name used in README.md across all repo/branch snapshots; human-facing canonical label"
+  },
+  "upstream_template_tree_sha": {
+    "value": "4f52d97e",
+    "authoritative_source": "source_resolution_single_2.csv",
+    "source_branch": "source-review-single-2",
+    "source_repo": "mcpmark-eval-1031/BenchTasksCollv3",
+    "conflict_type": "multi_source_agreement",
+    "rationale": "Both instance reviews agree: academicpages/academicpages.github.io master tree SHA is 4f52d97e"
+  },
+  "subject_name": {
+    "value": "Junteng Liu (jliugi@connect.ust.hk)",
+    "authoritative_source": "source_resolution_single_2.csv",
+    "source_branch": "source-review-single-2",
+    "source_repo": "mcpmark-eval-1031/BenchTasksCollv3",
+    "conflict_type": "multi_source_agreement",
+    "rationale": "Both instance _5 and _6 reviews target same subject Junteng Liu; consistent across all sources"
+  }
+}
