@@ -1,0 +1,79 @@
+name: Review pilot
+
+on:
+  push:
+    branches:
+      - review/boundary-reconstruction
+  workflow_dispatch:
+
+jobs:
+  validate-pilot:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out review branch
+        uses: actions/checkout@v4
+        with:
+          ref: review/boundary-reconstruction
+
+      - name: Check out finalpool branch for pilot file validation
+        uses: actions/checkout@v4
+        with:
+          ref: finalpool
+          path: finalpool
+
+      - name: Verify pilot scope files
+        run: |
+          python - <<'PY'
+          import csv, os, sys, hashlib
+          with open('pilot_scope.csv') as f:
+              rows = list(csv.DictReader(f))
+          missing = []
+          mismatched = []
+          for row in rows:
+              expected_path = row['path']
+              finalpool_path = os.path.join('finalpool', expected_path)
+              if not os.path.exists(finalpool_path):
+                  missing.append(expected_path)
+                  continue
+              with open(finalpool_path, 'rb') as fh:
+                  content = fh.read()
+              size = len(content)
+              sha256 = hashlib.sha256(content).hexdigest()
+              if size != int(row['size_bytes']):
+                  mismatched.append(f"{expected_path}: size {size} != {row['size_bytes']}")
+              if sha256 != row['sha256']:
+                  mismatched.append(f"{expected_path}: sha256 mismatch")
+          print(f'Pilot files checked: {len(rows)}')
+          print(f'Missing: {len(missing)}')
+          print(f'Mismatched: {len(mismatched)}')
+          if missing:
+              print('Missing files:')
+              for p in missing:
+                  print(' ', p)
+          if mismatched:
+              print('Mismatched files:')
+              for m in mismatched:
+                  print(' ', m)
+          if missing or mismatched:
+              sys.exit(1)
+          print('All pilot files validated successfully against finalpool.')
+          PY
+
+      - name: Verify review artifacts
+        run: |
+          python - <<'PY'
+          import os, sys
+          required = [
+              'boundary_review.csv', 'kept_subset.json', 'borderline_cases.md',
+              'conflict_resolution.csv', 'resolved_values.json', 'source_priority.md',
+              'render_contract.md', 'render_preview.json', 'contract_checklist.md',
+              'full_scope.csv', 'dry_run_preview.md', 'pilot_scope.csv'
+          ]
+          missing = [f for f in required if not os.path.exists(f)]
+          if missing:
+              print('Missing review artifacts:')
+              for f in missing:
+                  print(' ', f)
+              sys.exit(1)
+          print('All review artifacts present.')
+          PY
