@@ -1,0 +1,95 @@
+{
+  "_meta": {
+    "description": "Authoritative resolved values for the boundary-review workflow on bugmaker00/BenchTasksCollv3-review. For each field that appears in more than one source or snapshot, the chosen value is recorded here. See source_priority.md for the rule that determined which source wins.",
+    "generated_from": "conflict_resolution.csv (boundary-review branch)",
+    "repository": "bugmaker00/BenchTasksCollv3-review",
+    "review_branch": "boundary-review",
+    "canonical_finalpool_branch": "finalpool",
+    "canonical_finalpool_commit": "531b8ecc7c8d351a11f828fb88b6b34be91c5857"
+  },
+  "project_name": "MCPBench-Dev",
+  "project_name_rationale": "README.md (active working name, consistent across all repo branches including boundary-review) wins over README_BASE.md ('BenchTaskCollv2', a historical base template) and the GitHub repository name ('BenchTasksCollv3-review', which encodes version and role, not a user-facing title).",
+  "total_candidates": 116,
+  "total_kept_e0": 77,
+  "total_drop_e1": 20,
+  "total_drop_e2": 10,
+  "total_drop_e3": 9,
+  "total_files_in_finalpool": 385,
+  "finalpool_commit_date": "2026-04-09",
+  "finalpool_audit_timestamp": "2026-04-09T10:12:00Z",
+  "finalpool_commit_sha": "531b8ecc7c8d351a11f828fb88b6b34be91c5857",
+  "e3_tasks_canonical_verdict": "DROP",
+  "e3_tasks_canonical_verdict_rationale": "The 9 E3 tasks were KEEP in the intermediate finalpool (mcpmark-eval-1031/BenchTasksCollv3@finalpool, 2026-03-23) but DROP in the canonical finalpool (bugmaker00/BenchTasksCollv3-review@finalpool, 2026-04-09). The later, canonical snapshot wins per source-priority rule SR-2 (newer authoritative snapshot prevails).",
+  "e3_task_names": [
+    "review-aggregator",
+    "wishlist-manager",
+    "comment-moderator",
+    "thumbnail-creator",
+    "url-shortener",
+    "lead-tracker",
+    "document-parser",
+    "code-reviewer",
+    "markdown-converter"
+  ],
+  "e0_rule_short_label": "Passes all inclusion criteria",
+  "e0_rule_full_definition": "evaluation/main.py present AND all docs/ files at standard English-only template byte-sizes (no CJK overage) AND no functionally equivalent task already in the kept set",
+  "e0_rule_label_rationale": "Short label ('Passes all inclusion criteria') is the canonical per-row label used in boundary_review.csv (SR-3: tabular structured data wins for row-level labels). Full definition from Issue #1 body is retained as the normative description.",
+  "source_dev_derivation_method": "explicit_source_dev_field",
+  "source_dev_derivation_rationale": "The explicit source_dev column in boundary_review.csv is chosen over branch-name derivation. Branch names use three inconsistent suffixing conventions (-dev, _dev, or no suffix), making derivation ambiguous. The explicit field is unambiguous (SR-3: structured CSV field beats derived label).",
+  "branch_name_convention_observed": {
+    "hyphen_dev_suffix": [
+      "fan-dev",
+      "lueyang-dev",
+      "wenshuo-dev",
+      "yuxuan-dev",
+      "yuzhen-dev"
+    ],
+    "underscore_dev_suffix": [
+      "jl_dev",
+      "junteng_dev",
+      "junxian_dev",
+      "xiaochen_dev"
+    ],
+    "no_suffix": [
+      "gyy",
+      "haoze",
+      "lv",
+      "ruige",
+      "zhaochen"
+    ]
+  },
+  "dev_task_count_scope": "kept_tasks_only",
+  "dev_task_count_scope_rationale": "Issue #1 and readback_audit.md both cite the kept-only count as the 'developer contribution count'. total_submitted counts are available in boundary_review.csv but are not the cited metric (SR-1: audit report wins).",
+  "dev_kept_task_counts": {
+    "fan": 4,
+    "gyy": 6,
+    "haoze": 4,
+    "jl": 5,
+    "junteng": 8,
+    "junxian": 3,
+    "lueyang": 8,
+    "lv": 7,
+    "ruige": 6,
+    "wenshuo": 4,
+    "xiaochen": 7,
+    "yuxuan": 5,
+    "yuzhen": 6,
+    "zhaochen": 4
+  },
+  "dev_total_submitted_counts": {
+    "fan": 8,
+    "gyy": 9,
+    "haoze": 7,
+    "jl": 7,
+    "junteng": 10,
+    "junxian": 8,
+    "lueyang": 10,
+    "lv": 9,
+    "ruige": 8,
+    "wenshuo": 7,
+    "xiaochen": 10,
+    "yuxuan": 7,
+    "yuzhen": 9,
+    "zhaochen": 7
+  }
+}
