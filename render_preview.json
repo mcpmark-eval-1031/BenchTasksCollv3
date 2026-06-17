@@ -1,0 +1,55 @@
+{
+  "description": "Preview subset: 5 representative tasks drawn verbatim from the canonical kept_subset.json (full set: 77 tasks). Field names, field order, and values conform to render_contract.md v1.0.",
+  "total_kept": 5,
+  "inclusion_rule": "E0: evaluation/main.py present AND all doc files at standard English-only template sizes AND task structure complete",
+  "source_repository": "bugmaker00/BenchTasksCollv3-review",
+  "review_branch": "finalpool",
+  "full_scope_csv": "full_scope.csv (385 files, 77 tasks, verified by readback_audit.md)",
+  "tasks": [
+    {
+      "task": "analytics-dashboard",
+      "source_branch": "lv",
+      "source_dev": "lv",
+      "file_count": 4,
+      "verdict": "KEEP",
+      "rule": "E0",
+      "decisive_evidence": "evaluation/main.py present; all docs at standard template byte-sizes (agent_system_prompt.md=126B task.md=97B); no CJK characters detected; structure complete"
+    },
+    {
+      "task": "canvas-automation",
+      "source_branch": "ruige",
+      "source_dev": "ruige",
+      "file_count": 5,
+      "verdict": "KEEP",
+      "rule": "E0",
+      "decisive_evidence": "evaluation/main.py present; all docs at standard template byte-sizes (agent_system_prompt.md=124B task.md=93B); no CJK characters detected; structure complete"
+    },
+    {
+      "task": "canvas-grade-automation",
+      "source_branch": "jl_dev",
+      "source_dev": "jl",
+      "file_count": 4,
+      "verdict": "KEEP",
+      "rule": "E0",
+      "decisive_evidence": "evaluation/main.py present; all docs at standard template byte-sizes (agent_system_prompt.md=130B task.md=105B); no CJK characters detected; structure complete"
+    },
+    {
+      "task": "certificate-manager",
+      "source_branch": "zhaochen",
+      "source_dev": "zhaochen",
+      "file_count": 3,
+      "verdict": "KEEP",
+      "rule": "E0",
+      "decisive_evidence": "evaluation/main.py present; all docs at standard template byte-sizes (agent_system_prompt.md=126B task.md=97B); no CJK characters detected; structure complete"
+    },
+    {
+      "task": "coupon-manager",
+      "source_branch": "fan-dev",
+      "source_dev": "fan",
+      "file_count": 4,
+      "verdict": "KEEP",
+      "rule": "E0",
+      "decisive_evidence": "evaluation/main.py present; all docs at standard template byte-sizes (agent_system_prompt.md=121B task.md=87B); no CJK characters detected; structure complete"
+    }
+  ]
+}
