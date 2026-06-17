@@ -1,0 +1,703 @@
+{
+  "description": "All 77 tasks that passed boundary review and are staged on the finalpool branch",
+  "total_kept": 77,
+  "inclusion_rule": "E0: evaluation/main.py present AND all doc files at standard English-only template sizes AND task structure complete",
+  "source_repository": "bugmaker00/BenchTasksCollv3-review",
+  "review_branch": "finalpool",
+  "full_scope_csv": "full_scope.csv (385 files, 77 tasks, verified by readback_audit.md)",
+  "tasks": [
+    {
+      "task": "activity-logger",
+      "source_branch": "lueyang-dev",
+      "source_dev": "lueyang",
+      "file_count": 5,
+      "verdict": "KEEP",
+      "rule": "E0",
+      "decisive_evidence": "evaluation/main.py present; all docs at standard template byte-sizes (agent_system_prompt.md=122B task.md=89B); no CJK characters detected; structure complete"
+    },
+    {
+      "task": "alert-system",
+      "source_branch": "yuzhen-dev",
+      "source_dev": "yuzhen",
+      "file_count": 5,
+      "verdict": "KEEP",
+      "rule": "E0",
+      "decisive_evidence": "evaluation/main.py present; all docs at standard template byte-sizes (agent_system_prompt.md=119B task.md=83B); no CJK characters detected; structure complete"
+    },
+    {
+      "task": "analytics-dashboard",
+      "source_branch": "lv",
+      "source_dev": "lv",
+      "file_count": 4,
+      "verdict": "KEEP",
+      "rule": "E0",
+      "decisive_evidence": "evaluation/main.py present; all docs at standard template byte-sizes (agent_system_prompt.md=126B task.md=97B); no CJK characters detected; structure complete"
+    },
+    {
+      "task": "asset-optimizer",
+      "source_branch": "yuxuan-dev",
+      "source_dev": "yuxuan",
+      "file_count": 5,
+      "verdict": "KEEP",
+      "rule": "E0",
+      "decisive_evidence": "evaluation/main.py present; all docs at standard template byte-sizes (agent_system_prompt.md=122B task.md=89B); no CJK characters detected; structure complete"
+    },
+    {
+      "task": "backup-utility",
+      "source_branch": "xiaochen_dev",
+      "source_dev": "xiaochen",
+      "file_count": 4,
+      "verdict": "KEEP",
+      "rule": "E0",
+      "decisive_evidence": "evaluation/main.py present; all docs at standard template byte-sizes (agent_system_prompt.md=121B task.md=87B); no CJK characters detected; structure complete"
+    },
+    {
+      "task": "blog-engine",
+      "source_branch": "gyy",
+      "source_dev": "gyy",
+      "file_count": 6,
+      "verdict": "KEEP",
+      "rule": "E0",
+      "decisive_evidence": "evaluation/main.py present; all docs at standard template byte-sizes (agent_system_prompt.md=118B task.md=81B); no CJK characters detected; structure complete"
+    },
+    {
+      "task": "booking-system",
+      "source_branch": "junteng_dev",
+      "source_dev": "junteng",
+      "file_count": 7,
+      "verdict": "KEEP",
+      "rule": "E0",
+      "decisive_evidence": "evaluation/main.py present; all docs at standard template byte-sizes (agent_system_prompt.md=121B task.md=87B); no CJK characters detected; structure complete"
+    },
+    {
+      "task": "cache-optimizer",
+      "source_branch": "wenshuo-dev",
+      "source_dev": "wenshuo",
+      "file_count": 4,
+      "verdict": "KEEP",
+      "rule": "E0",
+      "decisive_evidence": "evaluation/main.py present; all docs at standard template byte-sizes (agent_system_prompt.md=122B task.md=89B); no CJK characters detected; structure complete"
+    },
+    {
+      "task": "calendar-sync",
+      "source_branch": "junteng_dev",
+      "source_dev": "junteng",
+      "file_count": 6,
+      "verdict": "KEEP",
+      "rule": "E0",
+      "decisive_evidence": "evaluation/main.py present; all docs at standard template byte-sizes (agent_system_prompt.md=120B task.md=85B); no CJK characters detected; structure complete"
+    },
+    {
+      "task": "canvas-automation",
+      "source_branch": "ruige",
+      "source_dev": "ruige",
+      "file_count": 5,
+      "verdict": "KEEP",
+      "rule": "E0",
+      "decisive_evidence": "evaluation/main.py present; all docs at standard template byte-sizes (agent_system_prompt.md=124B task.md=93B); no CJK characters detected; structure complete"
+    },
+    {
+      "task": "canvas-grade-automation",
+      "source_branch": "jl_dev",
+      "source_dev": "jl",
+      "file_count": 4,
+      "verdict": "KEEP",
+      "rule": "E0",
+      "decisive_evidence": "evaluation/main.py present; all docs at standard template byte-sizes (agent_system_prompt.md=130B task.md=105B); no CJK characters detected; structure complete"
+    },
+    {
+      "task": "certificate-manager",
+      "source_branch": "zhaochen",
+      "source_dev": "zhaochen",
+      "file_count": 3,
+      "verdict": "KEEP",
+      "rule": "E0",
+      "decisive_evidence": "evaluation/main.py present; all docs at standard template byte-sizes (agent_system_prompt.md=126B task.md=97B); no CJK characters detected; structure complete"
+    },
+    {
+      "task": "chat-bot",
+      "source_branch": "lv",
+      "source_dev": "lv",
+      "file_count": 6,
+      "verdict": "KEEP",
+      "rule": "E0",
+      "decisive_evidence": "evaluation/main.py present; all docs at standard template byte-sizes (agent_system_prompt.md=115B task.md=75B); no CJK characters detected; structure complete"
+    },
+    {
+      "task": "client-portal",
+      "source_branch": "lueyang-dev",
+      "source_dev": "lueyang",
+      "file_count": 7,
+      "verdict": "KEEP",
+      "rule": "E0",
+      "decisive_evidence": "evaluation/main.py present; all docs at standard template byte-sizes (agent_system_prompt.md=120B task.md=85B); no CJK characters detected; structure complete"
+    },
+    {
+      "task": "cms-builder",
+      "source_branch": "gyy",
+      "source_dev": "gyy",
+      "file_count": 7,
+      "verdict": "KEEP",
+      "rule": "E0",
+      "decisive_evidence": "evaluation/main.py present; all docs at standard template byte-sizes (agent_system_prompt.md=118B task.md=81B); no CJK characters detected; structure complete"
+    },
+    {
+      "task": "contact-manager",
+      "source_branch": "junteng_dev",
+      "source_dev": "junteng",
+      "file_count": 6,
+      "verdict": "KEEP",
+      "rule": "E0",
+      "decisive_evidence": "evaluation/main.py present; all docs at standard template byte-sizes (agent_system_prompt.md=122B task.md=89B); no CJK characters detected; structure complete"
+    },
+    {
+      "task": "content-manager",
+      "source_branch": "yuxuan-dev",
+      "source_dev": "yuxuan",
+      "file_count": 7,
+      "verdict": "KEEP",
+      "rule": "E0",
+      "decisive_evidence": "evaluation/main.py present; all docs at standard template byte-sizes (agent_system_prompt.md=122B task.md=89B); no CJK characters detected; structure complete"
+    },
+    {
+      "task": "content-scheduler",
+      "source_branch": "gyy",
+      "source_dev": "gyy",
+      "file_count": 5,
+      "verdict": "KEEP",
+      "rule": "E0",
+      "decisive_evidence": "evaluation/main.py present; all docs at standard template byte-sizes (agent_system_prompt.md=124B task.md=93B); no CJK characters detected; structure complete"
+    },
+    {
+      "task": "coupon-manager",
+      "source_branch": "fan-dev",
+      "source_dev": "fan",
+      "file_count": 4,
+      "verdict": "KEEP",
+      "rule": "E0",
+      "decisive_evidence": "evaluation/main.py present; all docs at standard template byte-sizes (agent_system_prompt.md=121B task.md=87B); no CJK characters detected; structure complete"
+    },
+    {
+      "task": "crm-system",
+      "source_branch": "lueyang-dev",
+      "source_dev": "lueyang",
+      "file_count": 7,
+      "verdict": "KEEP",
+      "rule": "E0",
+      "decisive_evidence": "evaluation/main.py present; all docs at standard template byte-sizes (agent_system_prompt.md=117B task.md=79B); no CJK characters detected; structure complete"
+    },
+    {
+      "task": "customer-feedback-processor",
+      "source_branch": "jl_dev",
+      "source_dev": "jl",
+      "file_count": 5,
+      "verdict": "KEEP",
+      "rule": "E0",
+      "decisive_evidence": "evaluation/main.py present; all docs at standard template byte-sizes (agent_system_prompt.md=134B task.md=113B); no CJK characters detected; structure complete"
+    },
+    {
+      "task": "data-analytics",
+      "source_branch": "ruige",
+      "source_dev": "ruige",
+      "file_count": 5,
+      "verdict": "KEEP",
+      "rule": "E0",
+      "decisive_evidence": "evaluation/main.py present; all docs at standard template byte-sizes (agent_system_prompt.md=121B task.md=87B); no CJK characters detected; structure complete"
+    },
+    {
+      "task": "data-validator",
+      "source_branch": "yuzhen-dev",
+      "source_dev": "yuzhen",
+      "file_count": 5,
+      "verdict": "KEEP",
+      "rule": "E0",
+      "decisive_evidence": "evaluation/main.py present; all docs at standard template byte-sizes (agent_system_prompt.md=121B task.md=87B); no CJK characters detected; structure complete"
+    },
+    {
+      "task": "deal-manager",
+      "source_branch": "lueyang-dev",
+      "source_dev": "lueyang",
+      "file_count": 5,
+      "verdict": "KEEP",
+      "rule": "E0",
+      "decisive_evidence": "evaluation/main.py present; all docs at standard template byte-sizes (agent_system_prompt.md=119B task.md=83B); no CJK characters detected; structure complete"
+    },
+    {
+      "task": "deployment-tool",
+      "source_branch": "xiaochen_dev",
+      "source_dev": "xiaochen",
+      "file_count": 6,
+      "verdict": "KEEP",
+      "rule": "E0",
+      "decisive_evidence": "evaluation/main.py present; all docs at standard template byte-sizes (agent_system_prompt.md=122B task.md=89B); no CJK characters detected; structure complete"
+    },
+    {
+      "task": "discount-calculator",
+      "source_branch": "fan-dev",
+      "source_dev": "fan",
+      "file_count": 4,
+      "verdict": "KEEP",
+      "rule": "E0",
+      "decisive_evidence": "evaluation/main.py present; all docs at standard template byte-sizes (agent_system_prompt.md=126B task.md=97B); no CJK characters detected; structure complete"
+    },
+    {
+      "task": "email-campaign",
+      "source_branch": "lueyang-dev",
+      "source_dev": "lueyang",
+      "file_count": 6,
+      "verdict": "KEEP",
+      "rule": "E0",
+      "decisive_evidence": "evaluation/main.py present; all docs at standard template byte-sizes (agent_system_prompt.md=121B task.md=87B); no CJK characters detected; structure complete"
+    },
+    {
+      "task": "email-classification-system",
+      "source_branch": "jl_dev",
+      "source_dev": "jl",
+      "file_count": 6,
+      "verdict": "KEEP",
+      "rule": "E0",
+      "decisive_evidence": "evaluation/main.py present; all docs at standard template byte-sizes (agent_system_prompt.md=134B task.md=113B); no CJK characters detected; structure complete"
+    },
+    {
+      "task": "error-tracker",
+      "source_branch": "xiaochen_dev",
+      "source_dev": "xiaochen",
+      "file_count": 5,
+      "verdict": "KEEP",
+      "rule": "E0",
+      "decisive_evidence": "evaluation/main.py present; all docs at standard template byte-sizes (agent_system_prompt.md=120B task.md=85B); no CJK characters detected; structure complete"
+    },
+    {
+      "task": "expense-tracker",
+      "source_branch": "ruige",
+      "source_dev": "ruige",
+      "file_count": 5,
+      "verdict": "KEEP",
+      "rule": "E0",
+      "decisive_evidence": "evaluation/main.py present; all docs at standard template byte-sizes (agent_system_prompt.md=122B task.md=89B); no CJK characters detected; structure complete"
+    },
+    {
+      "task": "feedback-collector",
+      "source_branch": "lv",
+      "source_dev": "lv",
+      "file_count": 5,
+      "verdict": "KEEP",
+      "rule": "E0",
+      "decisive_evidence": "evaluation/main.py present; all docs at standard template byte-sizes (agent_system_prompt.md=125B task.md=95B); no CJK characters detected; structure complete"
+    },
+    {
+      "task": "file-manager",
+      "source_branch": "ruige",
+      "source_dev": "ruige",
+      "file_count": 4,
+      "verdict": "KEEP",
+      "rule": "E0",
+      "decisive_evidence": "evaluation/main.py present; all docs at standard template byte-sizes (agent_system_prompt.md=119B task.md=83B); no CJK characters detected; structure complete"
+    },
+    {
+      "task": "follow-up-reminder",
+      "source_branch": "lueyang-dev",
+      "source_dev": "lueyang",
+      "file_count": 5,
+      "verdict": "KEEP",
+      "rule": "E0",
+      "decisive_evidence": "evaluation/main.py present; all docs at standard template byte-sizes (agent_system_prompt.md=125B task.md=95B); no CJK characters detected; structure complete"
+    },
+    {
+      "task": "form-builder",
+      "source_branch": "yuzhen-dev",
+      "source_dev": "yuzhen",
+      "file_count": 3,
+      "verdict": "KEEP",
+      "rule": "E0",
+      "decisive_evidence": "evaluation/main.py present; all docs at standard template byte-sizes (agent_system_prompt.md=119B task.md=83B); no CJK characters detected; structure complete"
+    },
+    {
+      "task": "health-monitor",
+      "source_branch": "xiaochen_dev",
+      "source_dev": "xiaochen",
+      "file_count": 5,
+      "verdict": "KEEP",
+      "rule": "E0",
+      "decisive_evidence": "evaluation/main.py present; all docs at standard template byte-sizes (agent_system_prompt.md=121B task.md=87B); no CJK characters detected; structure complete"
+    },
+    {
+      "task": "help-desk",
+      "source_branch": "junteng_dev",
+      "source_dev": "junteng",
+      "file_count": 6,
+      "verdict": "KEEP",
+      "rule": "E0",
+      "decisive_evidence": "evaluation/main.py present; all docs at standard template byte-sizes (agent_system_prompt.md=116B task.md=77B); no CJK characters detected; structure complete"
+    },
+    {
+      "task": "image-processor",
+      "source_branch": "wenshuo-dev",
+      "source_dev": "wenshuo",
+      "file_count": 6,
+      "verdict": "KEEP",
+      "rule": "E0",
+      "decisive_evidence": "evaluation/main.py present; all docs at standard template byte-sizes (agent_system_prompt.md=122B task.md=89B); no CJK characters detected; structure complete"
+    },
+    {
+      "task": "inventory-management",
+      "source_branch": "jl_dev",
+      "source_dev": "jl",
+      "file_count": 4,
+      "verdict": "KEEP",
+      "rule": "E0",
+      "decisive_evidence": "evaluation/main.py present; all docs at standard template byte-sizes (agent_system_prompt.md=127B task.md=99B); no CJK characters detected; structure complete"
+    },
+    {
+      "task": "invoice-generator",
+      "source_branch": "yuzhen-dev",
+      "source_dev": "yuzhen",
+      "file_count": 4,
+      "verdict": "KEEP",
+      "rule": "E0",
+      "decisive_evidence": "evaluation/main.py present; all docs at standard template byte-sizes (agent_system_prompt.md=124B task.md=93B); no CJK characters detected; structure complete"
+    },
+    {
+      "task": "load-balancer",
+      "source_branch": "zhaochen",
+      "source_dev": "zhaochen",
+      "file_count": 4,
+      "verdict": "KEEP",
+      "rule": "E0",
+      "decisive_evidence": "evaluation/main.py present; all docs at standard template byte-sizes (agent_system_prompt.md=120B task.md=85B); no CJK characters detected; structure complete"
+    },
+    {
+      "task": "log-analyzer",
+      "source_branch": "ruige",
+      "source_dev": "ruige",
+      "file_count": 5,
+      "verdict": "KEEP",
+      "rule": "E0",
+      "decisive_evidence": "evaluation/main.py present; all docs at standard template byte-sizes (agent_system_prompt.md=119B task.md=83B); no CJK characters detected; structure complete"
+    },
+    {
+      "task": "loyalty-program",
+      "source_branch": "fan-dev",
+      "source_dev": "fan",
+      "file_count": 5,
+      "verdict": "KEEP",
+      "rule": "E0",
+      "decisive_evidence": "evaluation/main.py present; all docs at standard template byte-sizes (agent_system_prompt.md=122B task.md=89B); no CJK characters detected; structure complete"
+    },
+    {
+      "task": "media-organizer",
+      "source_branch": "haoze",
+      "source_dev": "haoze",
+      "file_count": 7,
+      "verdict": "KEEP",
+      "rule": "E0",
+      "decisive_evidence": "evaluation/main.py present; all docs at standard template byte-sizes (agent_system_prompt.md=122B task.md=89B); no CJK characters detected; structure complete"
+    },
+    {
+      "task": "monitoring-agent",
+      "source_branch": "xiaochen_dev",
+      "source_dev": "xiaochen",
+      "file_count": 5,
+      "verdict": "KEEP",
+      "rule": "E0",
+      "decisive_evidence": "evaluation/main.py present; all docs at standard template byte-sizes (agent_system_prompt.md=123B task.md=91B); no CJK characters detected; structure complete"
+    },
+    {
+      "task": "network-analyzer",
+      "source_branch": "yuxuan-dev",
+      "source_dev": "yuxuan",
+      "file_count": 3,
+      "verdict": "KEEP",
+      "rule": "E0",
+      "decisive_evidence": "evaluation/main.py present; all docs at standard template byte-sizes (agent_system_prompt.md=123B task.md=91B); no CJK characters detected; structure complete"
+    },
+    {
+      "task": "order-processor",
+      "source_branch": "junteng_dev",
+      "source_dev": "junteng",
+      "file_count": 4,
+      "verdict": "KEEP",
+      "rule": "E0",
+      "decisive_evidence": "evaluation/main.py present; all docs at standard template byte-sizes (agent_system_prompt.md=122B task.md=89B); no CJK characters detected; structure complete"
+    },
+    {
+      "task": "payment-processor",
+      "source_branch": "yuzhen-dev",
+      "source_dev": "yuzhen",
+      "file_count": 5,
+      "verdict": "KEEP",
+      "rule": "E0",
+      "decisive_evidence": "evaluation/main.py present; all docs at standard template byte-sizes (agent_system_prompt.md=124B task.md=93B); no CJK characters detected; structure complete"
+    },
+    {
+      "task": "pdf-report-generator",
+      "source_branch": "jl_dev",
+      "source_dev": "jl",
+      "file_count": 6,
+      "verdict": "KEEP",
+      "rule": "E0",
+      "decisive_evidence": "evaluation/main.py present; all docs at standard template byte-sizes (agent_system_prompt.md=127B task.md=99B); no CJK characters detected; structure complete"
+    },
+    {
+      "task": "permission-manager",
+      "source_branch": "yuzhen-dev",
+      "source_dev": "yuzhen",
+      "file_count": 5,
+      "verdict": "KEEP",
+      "rule": "E0",
+      "decisive_evidence": "evaluation/main.py present; all docs at standard template byte-sizes (agent_system_prompt.md=125B task.md=95B); no CJK characters detected; structure complete"
+    },
+    {
+      "task": "personalization-service",
+      "source_branch": "lv",
+      "source_dev": "lv",
+      "file_count": 4,
+      "verdict": "KEEP",
+      "rule": "E0",
+      "decisive_evidence": "evaluation/main.py present; all docs at standard template byte-sizes (agent_system_prompt.md=130B task.md=105B); no CJK characters detected; structure complete"
+    },
+    {
+      "task": "price-tracker",
+      "source_branch": "fan-dev",
+      "source_dev": "fan",
+      "file_count": 4,
+      "verdict": "KEEP",
+      "rule": "E0",
+      "decisive_evidence": "evaluation/main.py present; all docs at standard template byte-sizes (agent_system_prompt.md=120B task.md=85B); no CJK characters detected; structure complete"
+    },
+    {
+      "task": "product-catalog",
+      "source_branch": "junteng_dev",
+      "source_dev": "junteng",
+      "file_count": 6,
+      "verdict": "KEEP",
+      "rule": "E0",
+      "decisive_evidence": "evaluation/main.py present; all docs at standard template byte-sizes (agent_system_prompt.md=122B task.md=89B); no CJK characters detected; structure complete"
+    },
+    {
+      "task": "qr-generator",
+      "source_branch": "junxian_dev",
+      "source_dev": "junxian",
+      "file_count": 6,
+      "verdict": "KEEP",
+      "rule": "E0",
+      "decisive_evidence": "evaluation/main.py present; all docs at standard template byte-sizes (agent_system_prompt.md=119B task.md=83B); no CJK characters detected; structure complete"
+    },
+    {
+      "task": "reminder-service",
+      "source_branch": "junteng_dev",
+      "source_dev": "junteng",
+      "file_count": 4,
+      "verdict": "KEEP",
+      "rule": "E0",
+      "decisive_evidence": "evaluation/main.py present; all docs at standard template byte-sizes (agent_system_prompt.md=123B task.md=91B); no CJK characters detected; structure complete"
+    },
+    {
+      "task": "robots-handler",
+      "source_branch": "gyy",
+      "source_dev": "gyy",
+      "file_count": 7,
+      "verdict": "KEEP",
+      "rule": "E0",
+      "decisive_evidence": "evaluation/main.py present; all docs at standard template byte-sizes (agent_system_prompt.md=121B task.md=87B); no CJK characters detected; structure complete"
+    },
+    {
+      "task": "sales-pipeline",
+      "source_branch": "lueyang-dev",
+      "source_dev": "lueyang",
+      "file_count": 3,
+      "verdict": "KEEP",
+      "rule": "E0",
+      "decisive_evidence": "evaluation/main.py present; all docs at standard template byte-sizes (agent_system_prompt.md=121B task.md=87B); no CJK characters detected; structure complete"
+    },
+    {
+      "task": "scheduler",
+      "source_branch": "wenshuo-dev",
+      "source_dev": "wenshuo",
+      "file_count": 5,
+      "verdict": "KEEP",
+      "rule": "E0",
+      "decisive_evidence": "evaluation/main.py present; all docs at standard template byte-sizes (agent_system_prompt.md=116B task.md=77B); no CJK characters detected; structure complete"
+    },
+    {
+      "task": "search-engine",
+      "source_branch": "wenshuo-dev",
+      "source_dev": "wenshuo",
+      "file_count": 7,
+      "verdict": "KEEP",
+      "rule": "E0",
+      "decisive_evidence": "evaluation/main.py present; all docs at standard template byte-sizes (agent_system_prompt.md=120B task.md=85B); no CJK characters detected; structure complete"
+    },
+    {
+      "task": "security-scanner",
+      "source_branch": "xiaochen_dev",
+      "source_dev": "xiaochen",
+      "file_count": 5,
+      "verdict": "KEEP",
+      "rule": "E0",
+      "decisive_evidence": "evaluation/main.py present; all docs at standard template byte-sizes (agent_system_prompt.md=123B task.md=91B); no CJK characters detected; structure complete"
+    },
+    {
+      "task": "sentiment-analyzer",
+      "source_branch": "lv",
+      "source_dev": "lv",
+      "file_count": 4,
+      "verdict": "KEEP",
+      "rule": "E0",
+      "decisive_evidence": "evaluation/main.py present; all docs at standard template byte-sizes (agent_system_prompt.md=125B task.md=95B); no CJK characters detected; structure complete"
+    },
+    {
+      "task": "shipment-tracker",
+      "source_branch": "junteng_dev",
+      "source_dev": "junteng",
+      "file_count": 3,
+      "verdict": "KEEP",
+      "rule": "E0",
+      "decisive_evidence": "evaluation/main.py present; all docs at standard template byte-sizes (agent_system_prompt.md=123B task.md=91B); no CJK characters detected; structure complete"
+    },
+    {
+      "task": "social-connector",
+      "source_branch": "junxian_dev",
+      "source_dev": "junxian",
+      "file_count": 7,
+      "verdict": "KEEP",
+      "rule": "E0",
+      "decisive_evidence": "evaluation/main.py present; all docs at standard template byte-sizes (agent_system_prompt.md=123B task.md=91B); no CJK characters detected; structure complete"
+    },
+    {
+      "task": "social-publisher",
+      "source_branch": "gyy",
+      "source_dev": "gyy",
+      "file_count": 5,
+      "verdict": "KEEP",
+      "rule": "E0",
+      "decisive_evidence": "evaluation/main.py present; all docs at standard template byte-sizes (agent_system_prompt.md=123B task.md=91B); no CJK characters detected; structure complete"
+    },
+    {
+      "task": "status-checker",
+      "source_branch": "xiaochen_dev",
+      "source_dev": "xiaochen",
+      "file_count": 5,
+      "verdict": "KEEP",
+      "rule": "E0",
+      "decisive_evidence": "evaluation/main.py present; all docs at standard template byte-sizes (agent_system_prompt.md=121B task.md=87B); no CJK characters detected; structure complete"
+    },
+    {
+      "task": "storage-manager",
+      "source_branch": "zhaochen",
+      "source_dev": "zhaochen",
+      "file_count": 3,
+      "verdict": "KEEP",
+      "rule": "E0",
+      "decisive_evidence": "evaluation/main.py present; all docs at standard template byte-sizes (agent_system_prompt.md=122B task.md=89B); no CJK characters detected; structure complete"
+    },
+    {
+      "task": "streaming-service",
+      "source_branch": "haoze",
+      "source_dev": "haoze",
+      "file_count": 5,
+      "verdict": "KEEP",
+      "rule": "E0",
+      "decisive_evidence": "evaluation/main.py present; all docs at standard template byte-sizes (agent_system_prompt.md=124B task.md=93B); no CJK characters detected; structure complete"
+    },
+    {
+      "task": "subtitle-generator",
+      "source_branch": "haoze",
+      "source_dev": "haoze",
+      "file_count": 6,
+      "verdict": "KEEP",
+      "rule": "E0",
+      "decisive_evidence": "evaluation/main.py present; all docs at standard template byte-sizes (agent_system_prompt.md=125B task.md=95B); no CJK characters detected; structure complete"
+    },
+    {
+      "task": "survey-builder",
+      "source_branch": "lv",
+      "source_dev": "lv",
+      "file_count": 4,
+      "verdict": "KEEP",
+      "rule": "E0",
+      "decisive_evidence": "evaluation/main.py present; all docs at standard template byte-sizes (agent_system_prompt.md=121B task.md=87B); no CJK characters detected; structure complete"
+    },
+    {
+      "task": "sync-service",
+      "source_branch": "yuxuan-dev",
+      "source_dev": "yuxuan",
+      "file_count": 5,
+      "verdict": "KEEP",
+      "rule": "E0",
+      "decisive_evidence": "evaluation/main.py present; all docs at standard template byte-sizes (agent_system_prompt.md=119B task.md=83B); no CJK characters detected; structure complete"
+    },
+    {
+      "task": "tag-manager",
+      "source_branch": "gyy",
+      "source_dev": "gyy",
+      "file_count": 7,
+      "verdict": "KEEP",
+      "rule": "E0",
+      "decisive_evidence": "evaluation/main.py present; all docs at standard template byte-sizes (agent_system_prompt.md=118B task.md=81B); no CJK characters detected; structure complete"
+    },
+    {
+      "task": "task-scheduler",
+      "source_branch": "yuxuan-dev",
+      "source_dev": "yuxuan",
+      "file_count": 3,
+      "verdict": "KEEP",
+      "rule": "E0",
+      "decisive_evidence": "evaluation/main.py present; all docs at standard template byte-sizes (agent_system_prompt.md=121B task.md=87B); no CJK characters detected; structure complete"
+    },
+    {
+      "task": "template-engine",
+      "source_branch": "zhaochen",
+      "source_dev": "zhaochen",
+      "file_count": 3,
+      "verdict": "KEEP",
+      "rule": "E0",
+      "decisive_evidence": "evaluation/main.py present; all docs at standard template byte-sizes (agent_system_prompt.md=122B task.md=89B); no CJK characters detected; structure complete"
+    },
+    {
+      "task": "territory-manager",
+      "source_branch": "lueyang-dev",
+      "source_dev": "lueyang",
+      "file_count": 5,
+      "verdict": "KEEP",
+      "rule": "E0",
+      "decisive_evidence": "evaluation/main.py present; all docs at standard template byte-sizes (agent_system_prompt.md=124B task.md=93B); no CJK characters detected; structure complete"
+    },
+    {
+      "task": "translation-api",
+      "source_branch": "junxian_dev",
+      "source_dev": "junxian",
+      "file_count": 5,
+      "verdict": "KEEP",
+      "rule": "E0",
+      "decisive_evidence": "evaluation/main.py present; all docs at standard template byte-sizes (agent_system_prompt.md=122B task.md=89B); no CJK characters detected; structure complete"
+    },
+    {
+      "task": "video-trimmer",
+      "source_branch": "haoze",
+      "source_dev": "haoze",
+      "file_count": 4,
+      "verdict": "KEEP",
+      "rule": "E0",
+      "decisive_evidence": "evaluation/main.py present; all docs at standard template byte-sizes (agent_system_prompt.md=120B task.md=85B); no CJK characters detected; structure complete"
+    },
+    {
+      "task": "voice-processor",
+      "source_branch": "lv",
+      "source_dev": "lv",
+      "file_count": 5,
+      "verdict": "KEEP",
+      "rule": "E0",
+      "decisive_evidence": "evaluation/main.py present; all docs at standard template byte-sizes (agent_system_prompt.md=122B task.md=89B); no CJK characters detected; structure complete"
+    },
+    {
+      "task": "web-crawler",
+      "source_branch": "ruige",
+      "source_dev": "ruige",
+      "file_count": 4,
+      "verdict": "KEEP",
+      "rule": "E0",
+      "decisive_evidence": "evaluation/main.py present; all docs at standard template byte-sizes (agent_system_prompt.md=118B task.md=81B); no CJK characters detected; structure complete"
+    }
+  ]
+}
