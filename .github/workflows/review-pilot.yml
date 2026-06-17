@@ -15,13 +15,14 @@ jobs:
         with:
           ref: review/boundary-reconstruction
 
-      - name: Check out finalpool branch for pilot file validation
+      - name: Check out canonical finalpool for pilot file validation
         uses: actions/checkout@v4
         with:
+          repository: bugmaker00/BenchTasksCollv3-review
           ref: finalpool
-          path: finalpool
+          path: canonical-finalpool
 
-      - name: Verify pilot scope files
+      - name: Verify pilot scope files against canonical finalpool
         run: |
           python - <<'PY'
           import csv, os, sys, hashlib
@@ -31,7 +32,7 @@ jobs:
           mismatched = []
           for row in rows:
               expected_path = row['path']
-              finalpool_path = os.path.join('finalpool', expected_path)
+              finalpool_path = os.path.join('canonical-finalpool', expected_path)
               if not os.path.exists(finalpool_path):
                   missing.append(expected_path)
                   continue
@@ -56,7 +57,7 @@ jobs:
                   print(' ', m)
           if missing or mismatched:
               sys.exit(1)
-          print('All pilot files validated successfully against finalpool.')
+          print('All pilot files validated successfully against canonical finalpool.')
           PY
 
       - name: Verify review artifacts
