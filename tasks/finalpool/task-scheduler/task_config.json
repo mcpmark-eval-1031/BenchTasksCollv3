@@ -1,0 +1,10 @@
+{
+  "task_name": "task-scheduler",
+  "needed_mcp_servers": [
+    "notion",
+    "github"
+  ],
+  "needed_local_tools": [
+    "claim_done"
+  ]
+}

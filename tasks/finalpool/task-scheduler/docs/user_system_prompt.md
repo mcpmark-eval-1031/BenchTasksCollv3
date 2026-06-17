@@ -1,0 +1,1 @@
+This file is optional, but if it is non-empty, is has to be all English
